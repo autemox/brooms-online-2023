@@ -97,13 +97,21 @@ public class CharacterAppearance : MonoBehaviour
 
         // Tests:
         // InvokeRepeating("RandomlyChangeAppearance", 1.0f, 1.0f);
-        Invoke("LoadTemplate", 0.5f);
+        StartCoroutine(LoadTemplateAfterDelay(0.5f, "Sevrus")); 
         Invoke("DebugOutSaveArr", 2.0f);  // Call DebugOutSaveArr after a delay to ensure all components are initialized
     }
+    IEnumerator LoadTemplateAfterDelay(float delay, string key)
+    {
+        yield return new WaitForSeconds(delay);
+        LoadTemplate(key);
+    }
+
     void LoadTemplate(string key)
     {
         string randomKey = new List<string>(templates.Keys)[UnityEngine.Random.Range(0, templates.Count)];
-        LoadFromSaveArr(templates[key==null?randomKey:key]);
+        Debug.Log("[CharacterAppearance LoadTemplate()] Loading Template: " + (key == null ? randomKey : key));
+        LoadFromSaveArr(templates[key == null ? randomKey : key]);
+
     }
 
     void LoadFromSaveArr(string[] saveArr)
