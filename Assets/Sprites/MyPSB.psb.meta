@@ -30065,6 +30065,16 @@ ScriptedImporter:
     flatten: 0
     isImported: 0
     isVisible: 1
+  - name: hand right normal
+    spriteName: hand right normal
+    isGroup: 0
+    parentIndex: 68
+    spriteID: 8b19a91587f217449acdad66a2fcbd64
+    layerID: 903
+    mosaicPosition: {x: 873, y: 597}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: hair front bangs blonde
     spriteName: hair front bangs blonde
     isGroup: 0
@@ -30142,16 +30152,6 @@ ScriptedImporter:
     spriteID: 165d0d40d59e4e04b9a4e03ec0de36d7
     layerID: 905
     mosaicPosition: {x: 692, y: 659}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: hand right normal
-    spriteName: hand right normal
-    isGroup: 0
-    parentIndex: 68
-    spriteID: 8b19a91587f217449acdad66a2fcbd64
-    layerID: 903
-    mosaicPosition: {x: 873, y: 597}
     flatten: 0
     isImported: 1
     isVisible: 1
