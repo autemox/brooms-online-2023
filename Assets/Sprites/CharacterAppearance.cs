@@ -34,23 +34,25 @@ public class AppearanceCategory
 
 public class CharacterAppearance : MonoBehaviour
 {
+    public GameObject hairFront;
     public GameObject headAccessories;
     public GameObject headFeatures;
-    public GameObject hairFront;
-    public GameObject eyebrows;
     public GameObject eyes;
     public GameObject eyesBack;
+    public GameObject eyebrows;
     public GameObject mouth;
     public GameObject head;
+    public GameObject handRight;
+    public GameObject shoeRight;
+    public GameObject torsoAccessories;
+    public GameObject torso;
     public GameObject handLeft;
     public GameObject item;
     public GameObject shoeLeft;
-    public GameObject torsoAccessories;
-    public GameObject torso;
     public GameObject hairBack;
-    public GameObject handRight;
-    public GameObject shoeRight;
     public AppearanceCategory[] appearance;
+
+    Dictionary<string, string[]> templates = new Dictionary<string, string[]>(); // temp way to store character appearances
 
     void Start()
     {
@@ -74,6 +76,13 @@ public class CharacterAppearance : MonoBehaviour
             {"Shoe Right", shoeRight}
         };
 
+        // templates for now
+        templates["Anna"] = new string[] { "Hair Front", "hair front bangs blonde", "Head Accessories", "head accessories glasses black round", "Head Features", "head feature freckles", "Eyes", "eyes brown", "Eyes Back", "eyes back eyeliner", "Eyebrows", "eyebrows light", "Mouth", "mouth lips", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "torso accessories necklace gold", "Torso", "torso thin robe purple", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "hair back parted blonde" };
+        templates["Loxie"] = new string[] { "Hair Front", "hair front parted pink", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes green", "Eyes Back", "eyes back eyeliner", "Eyebrows", "eyebrows dark", "Mouth", "mouth lips", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso thin robe purple", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
+        templates["Sevrus"] = new string[] { "Hair Front", "hair front parted black", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes brown", "Eyes Back", "eyes back coy", "Eyebrows", "eyebrows dark", "Mouth", "mouth normal", "Head", "head pointed", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso thin robe black", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "hair back short black" };
+        templates["Jake"] = new string[] { "Hair Front", "hair front bangs short", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes brown", "Eyes Back", "eyes back normal", "Eyebrows", "eyebrows dark", "Mouth", "mouth silly", "Head", "head round", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso shirt red", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
+        templates["Stew"] = new string[] { "Hair Front", "hair front bangs blonde", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes beedy teal", "Eyes Back", "empty sprite", "Eyebrows", "eyebrows light", "Mouth", "mouth normal", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso robe green_0", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
+
         SpriteLibrary spriteLibrary = GetComponent<SpriteLibrary>();
         SpriteLibraryAsset spriteLibraryAsset = spriteLibrary.spriteLibraryAsset;
         List<AppearanceCategory> categoriesList = new List<AppearanceCategory>();
@@ -88,8 +97,13 @@ public class CharacterAppearance : MonoBehaviour
 
         // Tests:
         // InvokeRepeating("RandomlyChangeAppearance", 1.0f, 1.0f);
-
+        Invoke("LoadTemplate", 0.5f);
         Invoke("DebugOutSaveArr", 2.0f);  // Call DebugOutSaveArr after a delay to ensure all components are initialized
+    }
+    void LoadTemplate(string key)
+    {
+        string randomKey = new List<string>(templates.Keys)[UnityEngine.Random.Range(0, templates.Count)];
+        LoadFromSaveArr(templates[key==null?randomKey:key]);
     }
 
     void LoadFromSaveArr(string[] saveArr)

@@ -16,21 +16,175 @@ MonoBehaviour:
   - m_Name: Hair Front
     m_Hash: 790134670
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: hair front afro black
+      m_Hash: 456558574
+      m_Sprite: {fileID: -4907096857218161602, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4907096857218161602, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front bangs black
+      m_Hash: 1003362714
+      m_Sprite: {fileID: 5727359411008562373, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5727359411008562373, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front bangs blonde
+      m_Hash: 283391670
+      m_Sprite: {fileID: -5350917140960233729, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5350917140960233729, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front bangs short
+      m_Hash: 1029911312
+      m_Sprite: {fileID: -2008475851848429518, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2008475851848429518, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front long bang red
+      m_Hash: 651157333
+      m_Sprite: {fileID: -6232115877658011311, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6232115877658011311, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front long bang red_0
+      m_Hash: 193176403
+      m_Sprite: {fileID: 1239063143415266735, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1239063143415266735, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front parted black
+      m_Hash: 507016660
+      m_Sprite: {fileID: -5955787904246414085, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5955787904246414085, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front parted blonde
+      m_Hash: 23440461
+      m_Sprite: {fileID: -3562402993962480776, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3562402993962480776, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front parted orange
+      m_Hash: 702132864
+      m_Sprite: {fileID: 7109723023942065083, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7109723023942065083, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front parted pink
+      m_Hash: 638766664
+      m_Sprite: {fileID: 3537420026688675652, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3537420026688675652, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front short brown
+      m_Hash: 716706469
+      m_Sprite: {fileID: 8619450437098911387, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8619450437098911387, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front short dark brown
+      m_Hash: 718477511
+      m_Sprite: {fileID: 2321077465520685202, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2321077465520685202, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front short messy blonde
+      m_Hash: 936055621
+      m_Sprite: {fileID: 5152695882511448120, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5152695882511448120, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair front spike and beard brown
+      m_Hash: 324996216
+      m_Sprite: {fileID: 293955258970060769, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 293955258970060769, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 14
   - m_Name: Head Accessories
     m_Hash: 198689948
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: empty sprite
+      m_Hash: 857705491
+      m_Sprite: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: head accessories glasses black round
+      m_Hash: 671013101
+      m_Sprite: {fileID: 5515716083801889933, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5515716083801889933, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: head accessories magic eye
+      m_Hash: 732587703
+      m_Sprite: {fileID: 493318544846806468, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 493318544846806468, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 3
   - m_Name: Head Features
     m_Hash: 808980769
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: empty sprite
+      m_Hash: 857705491
+      m_Sprite: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: head feature black neat beard
+      m_Hash: 152466520
+      m_Sprite: {fileID: 8967572833667733908, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8967572833667733908, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: head feature freckles
+      m_Hash: 891650673
+      m_Sprite: {fileID: 57121569076623561, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 57121569076623561, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: head features scar cheek
+      m_Hash: 223650714
+      m_Sprite: {fileID: -5759143153408162509, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5759143153408162509, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: head features scar forehead
+      m_Hash: 535676405
+      m_Sprite: {fileID: -8259715313402968747, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8259715313402968747, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 5
   - m_Name: Eyes
     m_Hash: 120101800
     m_CategoryList: []
@@ -75,73 +229,500 @@ MonoBehaviour:
   - m_Name: Eyes Back
     m_Hash: 944921185
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: eyes back coy
+      m_Hash: 634760544
+      m_Sprite: {fileID: -8973094224584752051, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8973094224584752051, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: eyes back eyeliner
+      m_Hash: 759924
+      m_Sprite: {fileID: 7347377081371348493, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7347377081371348493, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: eyes back normal
+      m_Hash: 167005457
+      m_Sprite: {fileID: -2882830874888730420, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2882830874888730420, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: empty sprite
+      m_Hash: 857705491
+      m_Sprite: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 4
   - m_Name: Eyebrows
     m_Hash: 766187361
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: eyebrows dark
+      m_Hash: 432340976
+      m_Sprite: {fileID: 4786881399615706265, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4786881399615706265, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: eyebrows light
+      m_Hash: 1007303997
+      m_Sprite: {fileID: -2375002365229291116, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2375002365229291116, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: empty sprite
+      m_Hash: 857705491
+      m_Sprite: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 3
   - m_Name: Mouth
     m_Hash: 520385427
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: mouth lips
+      m_Hash: 226328920
+      m_Sprite: {fileID: -6040846600940424697, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6040846600940424697, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: mouth normal
+      m_Hash: 803167911
+      m_Sprite: {fileID: 541754878771169283, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 541754878771169283, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: mouth silly
+      m_Hash: 619763339
+      m_Sprite: {fileID: 8924263185599694763, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8924263185599694763, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: mouth smile
+      m_Hash: 962125688
+      m_Sprite: {fileID: 2897349832794904347, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2897349832794904347, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 4
   - m_Name: Head
     m_Hash: 130111906
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: head round
+      m_Hash: 278280405
+      m_Sprite: {fileID: 7642447460091508530, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7642447460091508530, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: head round pale
+      m_Hash: 653709727
+      m_Sprite: {fileID: 1083235447027672232, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1083235447027672232, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: head pointed
+      m_Hash: 694696404
+      m_Sprite: {fileID: 47394332517024268, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 47394332517024268, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: head brown
+      m_Hash: 945899189
+      m_Sprite: {fileID: -330627419309561537, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -330627419309561537, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: head normal
+      m_Hash: 907920088
+      m_Sprite: {fileID: 8298822550081111713, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8298822550081111713, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 5
   - m_Name: Hand Right
     m_Hash: 736282753
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: hand right brown
+      m_Hash: 135362467
+      m_Sprite: {fileID: 979772074119500359, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 979772074119500359, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hand right normal
+      m_Hash: 49874872
+      m_Sprite: {fileID: -9202123630203355941, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -9202123630203355941, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 2
   - m_Name: Foot Right
     m_Hash: 379437040
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: foot right boot grey
+      m_Hash: 452630879
+      m_Sprite: {fileID: -2898402217676506065, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2898402217676506065, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: foot right shoe black
+      m_Hash: 298454047
+      m_Sprite: {fileID: 7664301304394353820, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7664301304394353820, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 2
   - m_Name: Torso Accessories
     m_Hash: 36499725
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: empty sprite
+      m_Hash: 857705491
+      m_Sprite: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso accessories necklace gold
+      m_Hash: 783387853
+      m_Sprite: {fileID: -6205656468908736028, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6205656468908736028, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso accessories pearls
+      m_Hash: 56781544
+      m_Sprite: {fileID: -83268054827732483, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -83268054827732483, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso accessories stripped tie red
+      m_Hash: 609569145
+      m_Sprite: {fileID: 2019360488886135584, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2019360488886135584, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso accessories tie black
+      m_Hash: 834390647
+      m_Sprite: {fileID: 7105778374066379575, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7105778374066379575, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 5
   - m_Name: Torso
     m_Hash: 647926657
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: torso open shirt red black
+      m_Hash: 507410963
+      m_Sprite: {fileID: -6852319411451207757, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6852319411451207757, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso robe black
+      m_Hash: 319995630
+      m_Sprite: {fileID: 6220354415894495642, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6220354415894495642, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso robe blue
+      m_Hash: 696966367
+      m_Sprite: {fileID: -8770377556161473291, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8770377556161473291, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso robe brown
+      m_Hash: 932090002
+      m_Sprite: {fileID: 4645717024898385851, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4645717024898385851, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso robe green
+      m_Hash: 168684263
+      m_Sprite: {fileID: -1202645291234225220, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1202645291234225220, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso robe green_0
+      m_Hash: 197330824
+      m_Sprite: {fileID: 7658694605189891795, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7658694605189891795, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso robe grey
+      m_Hash: 372239497
+      m_Sprite: {fileID: -4874762202529104979, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4874762202529104979, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso robe orange
+      m_Hash: 790118905
+      m_Sprite: {fileID: -7425707184573729319, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7425707184573729319, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso shirt blue
+      m_Hash: 27868023
+      m_Sprite: {fileID: -5170100109988320127, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5170100109988320127, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso shirt red
+      m_Hash: 1058271836
+      m_Sprite: {fileID: 6493682120843523856, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6493682120843523856, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso shirt skirt green black
+      m_Hash: 889932945
+      m_Sprite: {fileID: 4569111132732130388, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4569111132732130388, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso shirt teal
+      m_Hash: 746088266
+      m_Sprite: {fileID: -3527548690499340612, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3527548690499340612, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso shirt white
+      m_Hash: 12435807
+      m_Sprite: {fileID: -6851397569810316534, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6851397569810316534, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso tank top skirt yellow black
+      m_Hash: 665277550
+      m_Sprite: {fileID: 8646371481078687724, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8646371481078687724, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso thin robe black
+      m_Hash: 712479602
+      m_Sprite: {fileID: -652347607538954491, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -652347607538954491, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso thin robe blue
+      m_Hash: 270525654
+      m_Sprite: {fileID: -4791838241901401901, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4791838241901401901, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso thin robe brown
+      m_Hash: 250330382
+      m_Sprite: {fileID: -4863248592417620347, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4863248592417620347, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso thin robe purple
+      m_Hash: 563623973
+      m_Sprite: {fileID: 5392843013814257810, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5392843013814257810, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: torso thin robe teal
+      m_Hash: 1036957931
+      m_Sprite: {fileID: -3185827101485613161, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3185827101485613161, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 19
   - m_Name: Hand Left
     m_Hash: 759093038
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: hand left brown
+      m_Hash: 762376700
+      m_Sprite: {fileID: 3300312299832558787, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3300312299832558787, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hand left normal
+      m_Hash: 965225051
+      m_Sprite: {fileID: 7471822179876099812, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7471822179876099812, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 2
   - m_Name: Item
     m_Hash: 1059686944
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: empty sprite
+      m_Hash: 857705491
+      m_Sprite: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: item sword red diamond
+      m_Hash: 66737308
+      m_Sprite: {fileID: 6618501939745763046, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6618501939745763046, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: item wand normal
+      m_Hash: 737663949
+      m_Sprite: {fileID: -1526294260504709682, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1526294260504709682, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 3
   - m_Name: Foot Left
     m_Hash: 366417825
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: foot left boot grey
+      m_Hash: 790720439
+      m_Sprite: {fileID: -5353728677317902744, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5353728677317902744, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: foot left shoe black
+      m_Hash: 1060027811
+      m_Sprite: {fileID: -7099506260900728361, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7099506260900728361, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 2
   - m_Name: Hair Back
     m_Hash: 717172345
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: empty sprite
+      m_Hash: 857705491
+      m_Sprite: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair back loose dark brown
+      m_Hash: 1029113850
+      m_Sprite: {fileID: -6815417317193776843, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6815417317193776843, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair back loose pigtails red
+      m_Hash: 478305211
+      m_Sprite: {fileID: 7953996215613754808, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7953996215613754808, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair back outward brown
+      m_Hash: 876267741
+      m_Sprite: {fileID: 5272167630326421619, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5272167630326421619, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair back parted blonde
+      m_Hash: 344018002
+      m_Sprite: {fileID: -1410112661564380485, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1410112661564380485, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair back pigtails black
+      m_Hash: 1044777981
+      m_Sprite: {fileID: -6512849745572426013, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6512849745572426013, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair back pigtails blonde
+      m_Hash: 53955167
+      m_Sprite: {fileID: -2725633098694426599, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2725633098694426599, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair back short black
+      m_Hash: 109876114
+      m_Sprite: {fileID: -2166342259214926862, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2166342259214926862, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair back short ponytail brown
+      m_Hash: 488739814
+      m_Sprite: {fileID: -770844716320985444, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -770844716320985444, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: hair back straight blonde
+      m_Hash: 229796567
+      m_Sprite: {fileID: 9142378236903002305, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 9142378236903002305, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 10
   m_PrimaryLibraryGUID: 
