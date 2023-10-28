@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &82366621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 82366622}
+  m_Layer: 0
+  m_Name: ANIMATIONS @ BASE BONE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &82366622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82366621}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.08840331, y: -8.316285, z: 0.12240312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &107584524 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 496586, guid: 34b1c539aa10dbf46aebfc829037d0c3,
@@ -258,7 +289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerPrefabs:
-  - {fileID: 500731628744714509, guid: ed63d18cde1cfd147a956cac29534ffe, type: 3}
+  - {fileID: 2079269121, guid: 84de1721794fbe94ba67e01414f67434, type: 3}
   AutoAttributePlayerIDs: 1
   SceneCharacters: []
   DebugSpawn: {fileID: 1132044354}
@@ -4435,7 +4466,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: db28ef38172b586429f8f52a6a62547a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -4448,7 +4479,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2079269093}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2079269097
+--- !u!95 &2079269100
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
