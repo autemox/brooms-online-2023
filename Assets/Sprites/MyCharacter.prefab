@@ -773,7 +773,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3580317026554275240}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2079269095
+--- !u!95 &4513857818241713636
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -914,13 +914,14 @@ MonoBehaviour:
   mouth: {fileID: 8540794162185603122}
   head: {fileID: 670015963427848419}
   handRight: {fileID: 6080520433488272212}
-  shoeRight: {fileID: 6820814257802779095}
+  footRight: {fileID: 6820814257802779095}
   torsoAccessories: {fileID: 5593246346889904084}
   torso: {fileID: 3165626646297639276}
   handLeft: {fileID: 4591689194845574354}
   item: {fileID: 2341626841958958408}
-  shoeLeft: {fileID: 4240091061993782557}
+  footLeft: {fileID: 4240091061993782557}
   hairBack: {fileID: 8905766611368227215}
+  animatorObject: {fileID: 3201375125106517356}
 --- !u!114 &2079269100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1557,9 +1558,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0326d38ba14ce1b449a554c31745bd4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  threshold: 10
-  maxDistance: 0.03
-  xOffset: 0.03
+  threshold: 5
+  maxDistance: 0.04
+  xOffset: 0.02
   eyeBoneTransform: {fileID: 8741106348655410979}
   target: {x: 0, y: 0}
 --- !u!114 &5839212708356882374
@@ -1577,34 +1578,6 @@ MonoBehaviour:
   m_Library: []
   m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 81bd749d18bcfbc41bf9166378ae6179,
     type: 3}
---- !u!114 &7394515794886020639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3911403223223780373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5c19ac06508d494ab5a94bef910bb6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hairFront: {fileID: 0}
-  headAccessories: {fileID: 0}
-  headFeatures: {fileID: 0}
-  eyes: {fileID: 0}
-  eyesBack: {fileID: 0}
-  eyebrows: {fileID: 0}
-  mouth: {fileID: 0}
-  head: {fileID: 0}
-  handRight: {fileID: 0}
-  shoeRight: {fileID: 0}
-  torsoAccessories: {fileID: 0}
-  torso: {fileID: 0}
-  handLeft: {fileID: 0}
-  item: {fileID: 0}
-  shoeLeft: {fileID: 0}
-  hairBack: {fileID: 0}
 --- !u!114 &7698325254917064452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1618,7 +1591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentAnimator: {fileID: 2079269097}
-  childAnimator: {fileID: 2079269095}
+  childAnimator: {fileID: 4513857818241713636}
 --- !u!1 &4240091061993782557 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8396958177261889355, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,

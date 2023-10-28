@@ -77,7 +77,7 @@ public class CharacterAppearance : MonoBehaviour
         };
 
         // templates for now
-        templates["Anna"] = new string[] { "Hair Front", "hair front bangs blonde", "Head Accessories", "head accessories glasses black round", "Head Features", "head feature freckles", "Eyes", "eyes brown", "Eyes Back", "eyes back eyeliner", "Eyebrows", "eyebrows light", "Mouth", "mouth lips", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "torso accessories necklace gold", "Torso", "torso thin robe purple", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "hair back parted blonde" };
+        templates["Anna"] = new string[] { "Foot Right", "foot right boot grey", "Foot Left", "foot left boot grey","Hair Front", "hair front bangs blonde", "Head Accessories", "empty sprite", "Head Features", "head feature freckles", "Eyes", "eyes blue", "Eyes Back", "eyes back eyeliner", "Eyebrows", "eyebrows light", "Mouth", "mouth lips", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "torso accessories necklace gold", "Torso", "torso thin robe purple", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "hair back parted blonde" };
         templates["Loxie"] = new string[] { "Hair Front", "hair front parted pink", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes green", "Eyes Back", "eyes back eyeliner", "Eyebrows", "eyebrows dark", "Mouth", "mouth lips", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso thin robe purple", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
         templates["Sevrus"] = new string[] { "Hair Front", "hair front parted black", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes brown", "Eyes Back", "eyes back coy", "Eyebrows", "eyebrows dark", "Mouth", "mouth normal", "Head", "head pointed", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso thin robe black", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "hair back short black" };
         templates["Jake"] = new string[] { "Hair Front", "hair front bangs short", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes brown", "Eyes Back", "eyes back normal", "Eyebrows", "eyebrows dark", "Mouth", "mouth silly", "Head", "head round", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso shirt red", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
@@ -96,8 +96,7 @@ public class CharacterAppearance : MonoBehaviour
         appearance = categoriesList.ToArray();
 
         // Tests:
-        // InvokeRepeating("RandomlyChangeAppearance", 1.0f, 1.0f);
-        StartCoroutine(LoadTemplateAfterDelay(0.5f, "Sevrus")); 
+        StartCoroutine(LoadTemplateAfterDelay(0.5f, "Anna")); 
         Invoke("DebugOutSaveArr", 2.0f);  // Call DebugOutSaveArr after a delay to ensure all components are initialized
     }
     IEnumerator LoadTemplateAfterDelay(float delay, string key)
@@ -143,12 +142,6 @@ public class CharacterAppearance : MonoBehaviour
 
         string[] saveArr = saveArrList.ToArray();
         Debug.Log("[CharacterAppearance DebugOutSaveArr()] Save String: " + string.Join(", ", saveArr));
-    }
-
-    void RandomlyChangeAppearance()
-    {
-        AppearanceCategory randomCategory = appearance[Random.Range(0, appearance.Length)];
-        ChangeAppearance(randomCategory.category, randomCategory.labels[Random.Range(0, randomCategory.labels.Length)]);
     }
 
     public void ChangeAppearance(string category, string newLabel)
