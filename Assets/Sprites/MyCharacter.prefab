@@ -686,7 +686,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: db28ef38172b586429f8f52a6a62547a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -1369,13 +1369,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterType: 0
   PlayerID: Player1
-  InitialFacingDirection: 1
+  InitialFacingDirection: 0
   DirectionOnSpawn: 0
   CharacterAnimator: {fileID: 2079269097}
   UseDefaultMecanim: 1
   PerformAnimatorSanityChecks: 1
   DisableAnimatorLogs: 0
-  CharacterModel: {fileID: 0}
+  CharacterModel: {fileID: 3911403223223780373}
   CameraTarget: {fileID: 0}
   CameraTargetSpeed: 5
   AdditionalAbilityNodes: []
@@ -1390,7 +1390,7 @@ MonoBehaviour:
   AirborneDistance: 0.5
   AirborneMinimumTime: 0.1
   CharacterBrain: {fileID: 0}
---- !u!114 &-110192645641829727
+--- !u!114 &7698325254917064452
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1399,8 +1399,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3911403223223780373}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b1b16f7fd2d363458c514b44617608c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e11eab707db3624bac8411a344e1846, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AutoRemoveAfterInitialization: 1
-  AddAnimationParametersButton: 0
+  parentAnimator: {fileID: 2079269097}
+  childAnimator: {fileID: 2079269095}
