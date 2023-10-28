@@ -34,9 +34,44 @@ MonoBehaviour:
   - m_Name: Eyes
     m_Hash: 120101800
     m_CategoryList: []
-    m_OverrideEntries: []
+    m_OverrideEntries:
+    - m_Name: eyes beedy coy teal
+      m_Hash: 1034846701
+      m_Sprite: {fileID: 1046029718679849220, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1046029718679849220, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: eyes beedy teal
+      m_Hash: 1067248899
+      m_Sprite: {fileID: 4325938555445632602, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4325938555445632602, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: eyes blue
+      m_Hash: 694779007
+      m_Sprite: {fileID: -9042064058517173222, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -9042064058517173222, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: eyes brown
+      m_Hash: 559468762
+      m_Sprite: {fileID: -2932902967619010657, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2932902967619010657, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: eyes green
+      m_Hash: 484158127
+      m_Sprite: {fileID: 1413914635810955141, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1413914635810955141, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 0
+    m_EntryOverrideCount: 5
   - m_Name: Eyes Back
     m_Hash: 944921185
     m_CategoryList: []
