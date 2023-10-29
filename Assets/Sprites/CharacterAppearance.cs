@@ -43,14 +43,26 @@ public class CharacterAppearance : MonoBehaviour
     public GameObject mouth;
     public GameObject head;
     public GameObject handRight;
-    public GameObject shoeRight;
+    public GameObject footRight;
     public GameObject torsoAccessories;
     public GameObject torso;
     public GameObject handLeft;
     public GameObject item;
-    public GameObject shoeLeft;
+    public GameObject footLeft;
     public GameObject hairBack;
     public AppearanceCategory[] appearance;
+
+    public enum TemplateAppearance
+    {
+        Null,
+        Anna,
+        Loxie,
+        Sevrus,
+        Jake,
+        Stew
+    }
+
+    [SerializeField] public TemplateAppearance templateAppearance;
 
     Dictionary<string, string[]> templates = new Dictionary<string, string[]>(); // temp way to store character appearances
 
@@ -68,12 +80,12 @@ public class CharacterAppearance : MonoBehaviour
             {"Head", head},
             {"Hand Left", handLeft},
             {"Item", item},
-            {"Shoe Left", shoeLeft},
+            {"Foot Left", footLeft},
             {"Torso Accessories", torsoAccessories},
             {"Torso", torso},
             {"Hair Back", hairBack},
             {"Hand Right", handRight},
-            {"Shoe Right", shoeRight}
+            {"Foot Right", footRight}
         };
 
         // templates for now
@@ -96,7 +108,7 @@ public class CharacterAppearance : MonoBehaviour
         appearance = categoriesList.ToArray();
 
         // Tests:
-        StartCoroutine(LoadTemplateAfterDelay(0.5f, "Anna")); 
+        StartCoroutine(LoadTemplateAfterDelay(0.5f, templateAppearance.ToString()=="Null"?null:templateAppearance.ToString())); 
         Invoke("DebugOutSaveArr", 2.0f);  // Call DebugOutSaveArr after a delay to ensure all components are initialized
     }
     IEnumerator LoadTemplateAfterDelay(float delay, string key)
