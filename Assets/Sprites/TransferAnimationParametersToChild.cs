@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TransferParameters : MonoBehaviour
+public class TransferAnimationParametersToChild : MonoBehaviour
 {
     public Animator parentAnimator;
     public Animator childAnimator;

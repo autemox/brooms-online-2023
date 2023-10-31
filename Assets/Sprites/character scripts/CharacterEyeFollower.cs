@@ -14,7 +14,8 @@ public class CharacterEyeFollower : CharacterAbility
 
     public float threshold = 100f;
     public float maxDistance = 0.03f;
-    public float yOffset = 0.03f;
+    [SerializeField] public float xOffset = -0.01f;
+    [SerializeField] public float yOffset = 0.03f;
     public Transform eyeBoneTransform;
     private Vector2 originalLocalPosition;
     private Vector2 newLocalPosition;
@@ -88,7 +89,7 @@ public class CharacterEyeFollower : CharacterAbility
         // Move eyes towards the target
         eyeBoneTransform.localPosition = Vector3.Lerp(
             eyeBoneTransform.localPosition,
-            new Vector3(newLocalPosition.x, newLocalPosition.y + yOffset, eyeBoneTransform.localPosition.z),
+            new Vector3(newLocalPosition.x + xOffset, newLocalPosition.y + yOffset, eyeBoneTransform.localPosition.z),
             Time.deltaTime * 5f
         );
 

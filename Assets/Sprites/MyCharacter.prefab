@@ -1638,8 +1638,9 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  threshold: 5
-  maxDistance: 0.04
+  threshold: 100
+  maxDistance: 0.03
+  xOffset: -0.03
   yOffset: 0.03
   eyeBoneTransform: {fileID: 8741106348655410979}
   maxMousePriority: 10
@@ -1694,7 +1695,7 @@ MonoBehaviour:
   m_Library: []
   m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 81bd749d18bcfbc41bf9166378ae6179,
     type: 3}
---- !u!114 &7698325254917064452
+--- !u!114 &5884348949672305802
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
