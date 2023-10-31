@@ -140,6 +140,7 @@ namespace MoreMountains.CorgiEngine
 		/// </summary>
 		public virtual void RunStart()
 		{
+			Debug.Log("[CharacterRun RunStart() Fired");
 			if ( !AbilityAuthorized // if the ability is not permitted
 			     || (!_controller.State.IsGrounded) // or if we're not grounded
 			     || (_condition.CurrentState != CharacterStates.CharacterConditions.Normal) // or if we're not in normal conditions
@@ -171,6 +172,8 @@ namespace MoreMountains.CorgiEngine
 		/// </summary>
 		public virtual void RunStop()
 		{
+			Debug.Log("[CharacterRun RunStop() Fired");
+
 			// if the run button is released, we revert back to the walking speed.
 			if ((_characterHorizontalMovement != null) && (_movement.CurrentState != CharacterStates.MovementStates.Crouching))
 			{
