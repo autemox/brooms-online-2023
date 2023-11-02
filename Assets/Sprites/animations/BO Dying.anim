@@ -90,7 +90,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Body Bone
+    path: Character Bone/Body Bone
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -124,7 +124,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Body Bone/Head Bone
+    path: Character Bone/Body Bone/Head Bone
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -158,7 +158,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Body Bone/Head Bone/Hair Bone
+    path: Character Bone/Body Bone/Head Bone/Hair Bone
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -201,7 +201,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Body Bone/Left Hand Bone
+    path: Character Bone/Body Bone/Left Hand Bone
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -235,7 +235,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Body Bone/Right Hand Bone
+    path: Character Bone/Body Bone/Right Hand Bone
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -269,7 +269,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Left Foot Bone
+    path: Character Bone/Left Foot Bone
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -303,7 +303,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Right Foot Bone
+    path: Character Bone/Right Foot Bone
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -338,7 +338,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Body Bone
+    path: Character Bone/Body Bone
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -363,7 +363,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Body Bone/Head Bone
+    path: Character Bone/Body Bone/Head Bone
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -406,7 +406,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Body Bone/Left Hand Bone
+    path: Character Bone/Body Bone/Left Hand Bone
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -440,7 +440,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Body Bone/Right Hand Bone
+    path: Character Bone/Body Bone/Right Hand Bone
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -474,7 +474,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Left Foot Bone
+    path: Character Bone/Left Foot Bone
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -508,7 +508,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Right Foot Bone
+    path: Character Bone/Right Foot Bone
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -811,7 +811,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Body Bone
+    path: Character Bone/Body Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -848,7 +848,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Body Bone
+    path: Character Bone/Body Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -885,7 +885,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Body Bone
+    path: Character Bone/Body Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -922,7 +922,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Body Bone
+    path: Character Bone/Body Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -959,7 +959,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Body Bone
+    path: Character Bone/Body Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -996,7 +996,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Body Bone
+    path: Character Bone/Body Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1024,7 +1024,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Body Bone/Head Bone
+    path: Character Bone/Body Bone/Head Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1052,7 +1052,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Body Bone/Head Bone
+    path: Character Bone/Body Bone/Head Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1080,7 +1080,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Body Bone/Head Bone
+    path: Character Bone/Body Bone/Head Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1117,7 +1117,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Body Bone/Head Bone
+    path: Character Bone/Body Bone/Head Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1154,7 +1154,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Body Bone/Head Bone
+    path: Character Bone/Body Bone/Head Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1191,7 +1191,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Body Bone/Head Bone
+    path: Character Bone/Body Bone/Head Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1228,7 +1228,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Body Bone/Head Bone/Hair Bone
+    path: Character Bone/Body Bone/Head Bone/Hair Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1265,7 +1265,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Body Bone/Head Bone/Hair Bone
+    path: Character Bone/Body Bone/Head Bone/Hair Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1302,7 +1302,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Body Bone/Head Bone/Hair Bone
+    path: Character Bone/Body Bone/Head Bone/Hair Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1348,7 +1348,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Body Bone/Left Hand Bone
+    path: Character Bone/Body Bone/Left Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1394,7 +1394,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Body Bone/Left Hand Bone
+    path: Character Bone/Body Bone/Left Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1440,7 +1440,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Body Bone/Left Hand Bone
+    path: Character Bone/Body Bone/Left Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1486,7 +1486,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Body Bone/Left Hand Bone
+    path: Character Bone/Body Bone/Left Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1532,7 +1532,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Body Bone/Left Hand Bone
+    path: Character Bone/Body Bone/Left Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1578,7 +1578,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Body Bone/Left Hand Bone
+    path: Character Bone/Body Bone/Left Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1615,7 +1615,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Body Bone/Right Hand Bone
+    path: Character Bone/Body Bone/Right Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1652,7 +1652,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Body Bone/Right Hand Bone
+    path: Character Bone/Body Bone/Right Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1689,7 +1689,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Body Bone/Right Hand Bone
+    path: Character Bone/Body Bone/Right Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1726,7 +1726,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Body Bone/Right Hand Bone
+    path: Character Bone/Body Bone/Right Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1763,7 +1763,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Body Bone/Right Hand Bone
+    path: Character Bone/Body Bone/Right Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1800,7 +1800,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Body Bone/Right Hand Bone
+    path: Character Bone/Body Bone/Right Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1837,7 +1837,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Left Foot Bone
+    path: Character Bone/Left Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1874,7 +1874,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Left Foot Bone
+    path: Character Bone/Left Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1911,7 +1911,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Left Foot Bone
+    path: Character Bone/Left Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1948,7 +1948,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Left Foot Bone
+    path: Character Bone/Left Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1985,7 +1985,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Left Foot Bone
+    path: Character Bone/Left Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2022,7 +2022,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Left Foot Bone
+    path: Character Bone/Left Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2059,7 +2059,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Right Foot Bone
+    path: Character Bone/Right Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2096,7 +2096,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Right Foot Bone
+    path: Character Bone/Right Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2133,7 +2133,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Right Foot Bone
+    path: Character Bone/Right Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2170,7 +2170,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Right Foot Bone
+    path: Character Bone/Right Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2207,7 +2207,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Right Foot Bone
+    path: Character Bone/Right Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2244,7 +2244,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Right Foot Bone
+    path: Character Bone/Right Foot Bone
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -2255,7 +2255,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Right Foot Bone
+    path: Character Bone/Right Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2265,7 +2265,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Right Foot Bone
+    path: Character Bone/Right Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2275,7 +2275,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Right Foot Bone
+    path: Character Bone/Right Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2315,7 +2315,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Body Bone/Head Bone
+    path: Character Bone/Body Bone/Head Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2325,7 +2325,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Body Bone/Head Bone
+    path: Character Bone/Body Bone/Head Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2335,7 +2335,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Body Bone/Head Bone
+    path: Character Bone/Body Bone/Head Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2345,7 +2345,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Body Bone/Head Bone/Hair Bone
+    path: Character Bone/Body Bone/Head Bone/Hair Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2355,7 +2355,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Body Bone/Head Bone/Hair Bone
+    path: Character Bone/Body Bone/Head Bone/Hair Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2365,7 +2365,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Body Bone/Head Bone/Hair Bone
+    path: Character Bone/Body Bone/Head Bone/Hair Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2375,7 +2375,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Body Bone/Left Hand Bone
+    path: Character Bone/Body Bone/Left Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2385,7 +2385,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Body Bone/Left Hand Bone
+    path: Character Bone/Body Bone/Left Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2395,7 +2395,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Body Bone/Left Hand Bone
+    path: Character Bone/Body Bone/Left Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2405,7 +2405,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Body Bone/Right Hand Bone
+    path: Character Bone/Body Bone/Right Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2415,7 +2415,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Body Bone/Right Hand Bone
+    path: Character Bone/Body Bone/Right Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2425,7 +2425,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Body Bone/Right Hand Bone
+    path: Character Bone/Body Bone/Right Hand Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2435,7 +2435,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Left Foot Bone
+    path: Character Bone/Left Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2445,7 +2445,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Left Foot Bone
+    path: Character Bone/Left Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2455,7 +2455,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Left Foot Bone
+    path: Character Bone/Left Foot Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2465,7 +2465,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Body Bone
+    path: Character Bone/Body Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2475,7 +2475,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Body Bone
+    path: Character Bone/Body Bone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2485,7 +2485,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Body Bone
+    path: Character Bone/Body Bone
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
