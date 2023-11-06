@@ -51,10 +51,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _Maximum_Opacity: 1
+    - _Maximum_Opacity: 1.2
     - _Minimum_Opacity: 0.8
     - _Seed: 50
-    - _Speed: 100
+    - _Speed: 10
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
