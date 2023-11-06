@@ -1461,13 +1461,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774218842981342326, guid: d211b9a9c187b17489bb65515065e56b,
         type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774218842981342326, guid: d211b9a9c187b17489bb65515065e56b,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.83
+      value: -5.71
       objectReference: {fileID: 0}
     - target: {fileID: 2774218842981342326, guid: d211b9a9c187b17489bb65515065e56b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.607
+      value: -9.48
       objectReference: {fileID: 0}
     - target: {fileID: 2774218842981342326, guid: d211b9a9c187b17489bb65515065e56b,
         type: 3}
@@ -1514,8 +1519,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3308929274030570718, guid: d211b9a9c187b17489bb65515065e56b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d211b9a9c187b17489bb65515065e56b, type: 3}
 --- !u!1001 &468842142
 PrefabInstance:
@@ -2946,7 +2950,7 @@ MonoBehaviour:
   m_Intensity: 0.7
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: f5136e9f00000000892e24240d6ced9e35acc32343a3066b93b10a3863f733c19516035e
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -4260,6 +4264,11 @@ PrefabInstance:
     - target: {fileID: 22449008, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350812333575755333, guid: ace2d4bf56f98df4196ff81845a465d7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
