@@ -34,6 +34,8 @@ public class AppearanceCategory
 
 public class CharacterAppearance : MonoBehaviour
 {
+    [SerializeField] private string sortingLayerName="Default";
+
     public GameObject hairFront;
     public GameObject headAccessories;
     public GameObject headFeatures;
@@ -91,7 +93,7 @@ public class CharacterAppearance : MonoBehaviour
         // templates for now
         templates["Anna"] = new string[] { "Foot Right", "foot right boot grey", "Foot Left", "foot left boot grey","Hair Front", "hair front bangs blonde", "Head Accessories", "empty sprite", "Head Features", "head feature freckles", "Eyes", "eyes blue", "Eyes Back", "eyes back eyeliner", "Eyebrows", "eyebrows light", "Mouth", "mouth lips", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "torso accessories necklace gold", "Torso", "torso thin robe purple", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "hair back parted blonde" };
         templates["Loxie"] = new string[] { "Hair Front", "hair front parted pink", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes green", "Eyes Back", "eyes back eyeliner", "Eyebrows", "eyebrows dark", "Mouth", "mouth lips", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso thin robe purple", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
-        templates["Sevrus"] = new string[] { "Hair Front", "hair front parted black", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes brown", "Eyes Back", "eyes back coy", "Eyebrows", "eyebrows dark", "Mouth", "mouth normal", "Head", "head pointed", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso thin robe black", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "hair back short black" };
+        templates["Sevrus"] = new string[] { "Hair Front", "hair front parted black", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes brown", "Eyes Back", "eyes back coy", "Eyebrows", "eyebrows dark", "Mouth", "mouth normal", "Head", "head pointed", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso thin robe black", "Hand Left", "hand left normal", "Item", "empty sprite", "Hair Back", "hair back short black" };
         templates["Jake"] = new string[] { "Hair Front", "hair front bangs short", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes brown", "Eyes Back", "eyes back normal", "Eyebrows", "eyebrows dark", "Mouth", "mouth silly", "Head", "head round", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso shirt red", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
         templates["Stew"] = new string[] { "Hair Front", "hair front bangs blonde", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes beedy teal", "Eyes Back", "empty sprite", "Eyebrows", "eyebrows light", "Mouth", "mouth normal", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso robe green_0", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
 
@@ -111,10 +113,33 @@ public class CharacterAppearance : MonoBehaviour
         StartCoroutine(LoadTemplateAfterDelay(0.5f, templateAppearance.ToString()=="Null"?null:templateAppearance.ToString())); 
         Invoke("DebugOutSaveArr", 2.0f);  // Call DebugOutSaveArr after a delay to ensure all components are initialized
     }
+
     IEnumerator LoadTemplateAfterDelay(float delay, string key)
     {
         yield return new WaitForSeconds(delay);
         LoadTemplate(key);
+        UpdateSpriteRenderersSortingLayer();
+    }
+
+    public void UpdateSpriteRenderersSortingLayer()
+    {
+        // Iterate through each AppearanceCategory in the appearance array
+        foreach (var appearanceCategory in appearance)
+        {
+            // Get the SpriteRenderer component from the GameObject
+            var spriteRenderer = appearanceCategory.gameObject.GetComponent<SpriteRenderer>();
+            if (spriteRenderer != null)
+            {
+                // Update the sorting layer of the SpriteRenderer
+                spriteRenderer.sortingLayerName = sortingLayerName;
+                Debug.Log($"Updated sorting layer of {appearanceCategory.gameObject.name} to {sortingLayerName}");
+            }
+            else
+            {
+                // If there is no SpriteRenderer, log a warning
+                Debug.LogWarning($"SpriteRenderer component not found on {appearanceCategory.gameObject.name}");
+            }
+        }
     }
 
     void LoadTemplate(string key)
