@@ -1,0 +1,5208 @@
+fileFormatVersion: 2
+guid: 4220165b4a05ca748b495c132c11e09c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 1
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: duplicate floor stone
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2825
+      y: 5837
+      width: 1267
+      height: 103
+    spriteID: 5a557649f09213f4292be96610f160e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2825, y: 5837}
+    spritePosition: {x: 3301, y: 0}
+  - name: object shelf empty 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2986
+      y: 5668
+      width: 177
+      height: 34
+    spriteID: 6cb196b0d6c19814d96a49bb45c44d51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2986, y: 5668}
+    spritePosition: {x: 3138, y: 1682}
+  - name: structure window with plants
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2986
+      y: 5052
+      width: 640
+      height: 362
+    spriteID: 4bcbf2a6d0f2df142af729c2cd181b05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2357, y: 5052}
+    spritePosition: {x: 1984, y: 1256}
+  - name: structure wall vertical 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3844
+      y: 2012
+      width: 135
+      height: 720
+    spriteID: 34f26187e760365438a0b996bb538405
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3844, y: 2012}
+    spritePosition: {x: 3617, y: 1129}
+  - name: structure bowl with object
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3745
+      y: 1697
+      width: 251
+      height: 253
+    spriteID: aec6234a369bcf8499911ed270db9686
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3745, y: 1697}
+    spritePosition: {x: 3359, y: 1564}
+  - name: object door damaged teal
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3935
+      y: 1462
+      width: 135
+      height: 226
+    spriteID: 298230195fad5e144b243d5a13dd6617
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3935, y: 1462}
+    spritePosition: {x: 2704, y: 1343}
+  - name: structure wall with large crack
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3392
+      y: 1697
+      width: 345
+      height: 295
+    spriteID: 42f7203e09e1cfb47a421a7045fdfea8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3392, y: 1697}
+    spritePosition: {x: 2947, y: 1285}
+  - name: structure tower with window
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3392
+      y: 1036
+      width: 365
+      height: 653
+    spriteID: b0cf601c4aad8b548912c020ba7e2c38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3392, y: 1036}
+    spritePosition: {x: 3859, y: 1240}
+  - name: structure wall with window
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 3409
+      width: 343
+      height: 332
+    spriteID: 875f8bb31be38cf4bbe86abf5b11237a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 3409}
+    spritePosition: {x: 4318, y: 1590}
+  - name: structure wall damaged
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 3044
+      width: 360
+      height: 357
+    spriteID: 4e30365438c151041ad669e37b9428e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 3044}
+    spritePosition: {x: 4746, y: 1520}
+  - name: object bushes
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1281
+      y: 5837
+      width: 1536
+      height: 162
+    spriteID: ba2a58c81104abd48885b5b96e7d6f1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1281, y: 5837}
+    spritePosition: {x: 1994, y: 1126}
+  - name: flame glow 1.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3825
+      y: 3991
+      width: 407
+      height: 326
+    spriteID: d001d842d1873e345baec02a21d969a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3491, y: 3657}
+    spritePosition: {x: 5050, y: 1450}
+  - name: flame medium 1.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3620
+      y: 3044
+      width: 58
+      height: 78
+    spriteID: c943d188bd7115f4cb98879383ffd933
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3620, y: 3044}
+    spritePosition: {x: 1994, y: 1769}
+  - name: flame large 1.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3727
+      y: 3791
+      width: 84
+      height: 107
+    spriteID: 94bb0892f94badf40956e15454a5cdcb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3727, y: 3791}
+    spritePosition: {x: 2059, y: 1769}
+  - name: flame medium 2.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4004
+      y: 1783
+      width: 60
+      height: 81
+    spriteID: 9e9945d4c017d2143924281456735d4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4004, y: 1783}
+    spritePosition: {x: 2150, y: 1769}
+  - name: flame large 2.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4032
+      y: 5726
+      width: 55
+      height: 92
+    spriteID: 1f2a0a52d18072743a32eb4ceba84691
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4032, y: 5726}
+    spritePosition: {x: 2231, y: 1769}
+  - name: flame small 1.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3765
+      y: 1613
+      width: 87
+      height: 50
+    spriteID: 3e2cd443175030f4e9e30f9e9d258d36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3765, y: 1613}
+    spritePosition: {x: 2373, y: 1773}
+  - name: flame small 2.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 643
+      y: 8008
+      width: 54
+      height: 64
+    spriteID: 08321ea3d926c5645972abd3fa0fcffc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 643, y: 8008}
+    spritePosition: {x: 2311, y: 1773}
+  - name: flame smalll 3.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3620
+      y: 3192
+      width: 58
+      height: 56
+    spriteID: 5b99b0420d7a82c48be98f7c5d808e2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3620, y: 3192}
+    spritePosition: {x: 3015, y: 1773}
+  - name: flame medium 3.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3629
+      y: 3314
+      width: 67
+      height: 78
+    spriteID: 115c5bd77255927449ec890296aab14d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3629, y: 3314}
+    spritePosition: {x: 2614, y: 1771}
+  - name: flame medium 4.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3644
+      y: 3738
+      width: 44
+      height: 73
+    spriteID: bf867df46087e0542bc4d976449b887a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3644, y: 3738}
+    spritePosition: {x: 2939, y: 1771}
+  - name: flame medium 5.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3727
+      y: 3906
+      width: 65
+      height: 77
+    spriteID: c0ab6f9afd14ab74cb7da10199d73220
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3727, y: 3906}
+    spritePosition: {x: 2537, y: 1771}
+  - name: flame medium 6.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3860
+      y: 1613
+      width: 52
+      height: 74
+    spriteID: 7d8a78d8fde25d744a33932fa7d20ff1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3860, y: 1613}
+    spritePosition: {x: 2857, y: 1771}
+  - name: flame medium 7.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4004
+      y: 1697
+      width: 64
+      height: 78
+    spriteID: b181e68f9c9fb6c4195b2cac95189972
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4004, y: 1697}
+    spritePosition: {x: 2773, y: 1771}
+  - name: flame medium 8.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4004
+      y: 1872
+      width: 62
+      height: 75
+    spriteID: 51671c1fcf3b8b74399db1f333a1ec14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4004, y: 1872}
+    spritePosition: {x: 2695, y: 1771}
+  - name: flame medium 9.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3644
+      y: 3892
+      width: 43
+      height: 61
+    spriteID: 87d4af96b28fb884392fb449126749dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3644, y: 3892}
+    spritePosition: {x: 2470, y: 1771}
+  - name: flame medium 10.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3644
+      y: 3819
+      width: 48
+      height: 65
+    spriteID: 69a2c1ea9935fe743a2d6ae168965714
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3644, y: 3819}
+    spritePosition: {x: 3094, y: 1771}
+  - name: candle small
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4016
+      y: 1036
+      width: 58
+      height: 115
+    spriteID: 2a97c88ef37cf054394673d840275b03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4016, y: 1036}
+    spritePosition: {x: 4922, y: 280}
+  - name: candle stand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3987
+      y: 3791
+      width: 85
+      height: 221
+    spriteID: 42cf804b0ed56ee4a9a2a8fcaf04f325
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3987, y: 3791}
+    spritePosition: {x: 2200, y: 428}
+  - name: holder cup 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 643
+      y: 8080
+      width: 38
+      height: 23
+    spriteID: b8d15f9623be92a4a9e5b202a589ca37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 643, y: 8080}
+    spritePosition: {x: 2318, y: 1693}
+  - name: holder cup 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3644
+      y: 3961
+      width: 48
+      height: 36
+    spriteID: f72d45c06e51de148af9c0a3afae653b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3644, y: 3961}
+    spritePosition: {x: 2987, y: 1680}
+  - name: holder cup 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4016
+      y: 1159
+      width: 54
+      height: 33
+    spriteID: 8e1ca0e8ae7577f4980174f6ae605abe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4016, y: 1159}
+    spritePosition: {x: 2647, y: 1683}
+  - name: 'holder holder '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3727
+      y: 3991
+      width: 46
+      height: 9
+    spriteID: 4373be81ea524ef41b422938fdd13423
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3727, y: 3991}
+    spritePosition: {x: 2763, y: 1707}
+  - name: holder plate 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3993
+      y: 1958
+      width: 82
+      height: 30
+    spriteID: 0ccae5858b7a66040912bc7aece205b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3993, y: 1958}
+    spritePosition: {x: 2521, y: 1686}
+  - name: holder plate 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3781
+      y: 3991
+      width: 36
+      height: 11
+    spriteID: 94340f7e8419d7d4c843ceb906d4387a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3781, y: 3991}
+    spritePosition: {x: 2207, y: 1705}
+  - name: holder plate 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3765
+      y: 1671
+      width: 75
+      height: 12
+    spriteID: be7d5d6013e08e4459d56cb6dfacc2b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3765, y: 1671}
+    spritePosition: {x: 2412, y: 1704}
+  - name: holder plate 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3620
+      y: 3289
+      width: 59
+      height: 12
+    spriteID: 561fc9f087854614caaa505ef2e3ae12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3620, y: 3289}
+    spritePosition: {x: 2869, y: 1704}
+  - name: holder plate 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3620
+      y: 3256
+      width: 81
+      height: 25
+    spriteID: 67d6f1c4ac1ca3e448fafbe9c10f43e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3620, y: 3256}
+    spritePosition: {x: 1960, y: 1691}
+  - name: object table medium
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3844
+      y: 2740
+      width: 113
+      height: 139
+    spriteID: 883935e8635df5248bedb1b87e289c26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3844, y: 2740}
+    spritePosition: {x: 1989, y: 99}
+  - name: object table with candles
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 3749
+      width: 298
+      height: 257
+    spriteID: 11470c12a38d00a4ebef97029af29341
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 3749}
+    spritePosition: {x: 2340, y: 428}
+  - name: object small wood pieces
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3380
+      y: 3314
+      width: 120
+      height: 84
+    spriteID: 26fe27e3966f0084fa20c68ecb062146
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3380, y: 3314}
+    spritePosition: {x: 1936, y: 97}
+  - name: object shelf tall
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3634
+      y: 5052
+      width: 242
+      height: 658
+    spriteID: 04942b80d5aca4a428aee1617caf1bcb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3634, y: 5052}
+    spritePosition: {x: 2909, y: 241}
+  - name: object table small
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3765
+      y: 1461
+      width: 149
+      height: 144
+    spriteID: a43892e15473c7b41a37c23fbb36ec9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3765, y: 1461}
+    spritePosition: {x: 4520, y: 377}
+  - name: object door wood
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3935
+      y: 1208
+      width: 151
+      height: 246
+    spriteID: 746887a689a0b0f498868f1088855258
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3935, y: 1208}
+    spritePosition: {x: 3578, y: 97}
+  - name: object shelf empty
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3745
+      y: 1958
+      width: 240
+      height: 42
+    spriteID: 99ba4af85de26d74ea034087f91d35e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3745, y: 1958}
+    spritePosition: {x: 5515, y: 1361}
+  - name: object shelf w package
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1281
+      y: 6117
+      width: 206
+      height: 110
+    spriteID: 8b031cd0a8ca50c4796ae1d0737b3775
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1281, y: 6117}
+    spritePosition: {x: 5184, y: 1214}
+  - name: object hanging red cloth
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3765
+      y: 1208
+      width: 162
+      height: 245
+    spriteID: 664cf49f460015a4fae271647cf169b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3765, y: 1208}
+    spritePosition: {x: 5556, y: 1469}
+  - name: object small basket
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3508
+      y: 3314
+      width: 113
+      height: 81
+    spriteID: 49fda77054a81fd49a8f1219099b8410
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3508, y: 3314}
+    spritePosition: {x: 3767, y: 93}
+  - name: object shelf large
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3363
+      y: 3738
+      width: 273
+      height: 265
+    spriteID: 5afa7a77fd2abfc49a443b085ae298f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3363, y: 3738}
+    spritePosition: {x: 2437, y: 662}
+  - name: object wall piece 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3884
+      y: 5052
+      width: 187
+      height: 233
+    spriteID: e8c6444eacfc4b54ba52fffb2d58300b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3884, y: 5052}
+    spritePosition: {x: 5111, y: 1244}
+  - name: object stone platform uneven
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2403
+      y: 6007
+      width: 341
+      height: 74
+    spriteID: 509d38bcd2238074f8f4ac2b6d3bc0b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2403, y: 6007}
+    spritePosition: {x: 4301, y: 1431}
+  - name: object wall piece 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3884
+      y: 5293
+      width: 169
+      height: 248
+    spriteID: bc355bd2590fd4d49af8cb8ab6857198
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3884, y: 5293}
+    spritePosition: {x: 5663, y: 1323}
+  - name: object shelf potions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3765
+      y: 1036
+      width: 243
+      height: 164
+    spriteID: 40ab1054d6ae75a4f9f91764bcb535ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3765, y: 1036}
+    spritePosition: {x: 3951, y: 591}
+  - name: object caibinet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3380
+      y: 3044
+      width: 232
+      height: 262
+    spriteID: f006a158927752a4ab4813f4eadfb46a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3380, y: 3044}
+    spritePosition: {x: 4022, y: 97}
+  - name: object shelf small
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3844
+      y: 2887
+      width: 119
+      height: 93
+    spriteID: 3f77bb2046eff484cbea8c775018ecee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3844, y: 2887}
+    spritePosition: {x: 3970, y: 888}
+  - name: object small box
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3620
+      y: 3130
+      width: 64
+      height: 54
+    spriteID: 1e2ebe484386f0f4ea7a1f258a3950c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3620, y: 3130}
+    spritePosition: {x: 4445, y: 97}
+  - name: object small table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3884
+      y: 5549
+      width: 203
+      height: 148
+    spriteID: 495b3fd1bf4246e4a9330c4bd6f6d808
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3884, y: 5549}
+    spritePosition: {x: 4937, y: 91}
+  - name: object shelf potions large
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2986
+      y: 5422
+      width: 640
+      height: 238
+    spriteID: 6c5e4ab159251fa438a403dac6c8bd5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2986, y: 5422}
+    spritePosition: {x: 5214, y: 911}
+  - name: walls left side
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3727
+      y: 2012
+      width: 109
+      height: 1771
+    spriteID: cd712ba30e366cf45bc14a22b8c6d59e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3727, y: 2012}
+    spritePosition: {x: 1831, y: 91}
+  - name: walls right side
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3987
+      y: 2012
+      width: 54
+      height: 1771
+    spriteID: eaf19e7ec70a14041b0eb727a7bdb26d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3987, y: 2012}
+    spritePosition: {x: 5946, y: 94}
+  - name: floor stone full
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1281
+      y: 5726
+      width: 2743
+      height: 103
+    spriteID: 1379ee66cf575124ba769c3ffa5d0280
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1281, y: 5726}
+    spritePosition: {x: 625, y: 0}
+  - name: floor stone piece 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8008
+      width: 631
+      height: 102
+    spriteID: 6d2d9b3a8ee73e143b8f169204879f78
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 8008}
+    spritePosition: {x: 4894, y: 0}
+  - name: floor stone piece 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1914
+      y: 6007
+      width: 481
+      height: 101
+    spriteID: 51441032138ae174295b83af2987bf3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1914, y: 6007}
+    spritePosition: {x: 5519, y: 0}
+  - name: floor stone piece 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1281
+      y: 6007
+      width: 625
+      height: 102
+    spriteID: 7d1ae20ce44d35c45821efcb1286b22f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1281, y: 6007}
+    spritePosition: {x: 4269, y: 0}
+  - name: structure
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 7613
+      width: 644
+      height: 387
+    spriteID: c263ff979aa89c64ebb346b363b23c87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 7613}
+    spritePosition: {x: 2073, y: 66}
+  - name: structure stone
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3363
+      y: 3409
+      width: 354
+      height: 321
+    spriteID: 860b019f07841e54982b1e76674fd6fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3363, y: 3409}
+    spritePosition: {x: 4490, y: 95}
+  - name: structure weird wood tower
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 1036
+      width: 372
+      height: 966
+    spriteID: 07ef26641fbc46444b8157b6eee9b74d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 1036}
+    spritePosition: {x: 4472, y: 245}
+  - name: structure potion station
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 706
+      y: 6581
+      width: 668
+      height: 1024
+    spriteID: cdbefc54a989ebf4f8e926f33bf82c2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 706, y: 6581}
+    spritePosition: {x: 5168, y: 52}
+  - name: structure stone tower
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5726
+      width: 1269
+      height: 847
+    spriteID: 27a212a92537c15448e20db6f68d48bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 5726}
+    spritePosition: {x: 3112, y: 95}
+  - name: background black overlay
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4020
+      width: 2974
+      height: 1698
+    spriteID: 20cdeb5e84aae08468ec398cfe00eeb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4020}
+    spritePosition: {x: 2997, y: 0}
+  - name: background stone 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6581
+      width: 694
+      height: 1024
+    spriteID: 25480401715ba514ebd31b05716ade32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 6581}
+    spritePosition: {x: 5306, y: 71}
+  - name: background stone 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2986
+      y: 4020
+      width: 1024
+      height: 1024
+    spriteID: 5332a7de692116e47b1c22a48622521b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2986, y: 4020}
+    spritePosition: {x: 4439, y: 71}
+  - name: background stone 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 4
+      width: 1024
+      height: 1024
+    spriteID: 07d62ae064c1bc141b3a6ef4122e38e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 4}
+    spritePosition: {x: 3557, y: 71}
+  - name: background stone 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 2012
+      width: 707
+      height: 1024
+    spriteID: 8b3c47555ac26dc40a0447ec90c723f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 2012}
+    spritePosition: {x: 3000, y: 71}
+  - name: background black w stone
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 3000
+      height: 2000
+    spriteID: a92f155dad0215047a14ab120789381d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 36, y: 0}
+  - name: 'background black '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2012
+      width: 3000
+      height: 2000
+    spriteID: c4f2125080178d74d81d176e7d0451f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2012}
+    spritePosition: {x: 3000, y: 0}
+  rigSpriteImportData:
+  - name: duplicate floor stone
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2825
+      y: 5837
+      width: 1267
+      height: 103
+    spriteID: 727cd5aa2df269748860cdc9d0fa916d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2825, y: 5837}
+    spritePosition: {x: 3301, y: 0}
+  - name: object shelf empty 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2986
+      y: 5668
+      width: 177
+      height: 34
+    spriteID: 22cef8ce0d42764408fcfbf4e789bec1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2986, y: 5668}
+    spritePosition: {x: 3138, y: 1682}
+  - name: structure window with plants
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2986
+      y: 5052
+      width: 640
+      height: 362
+    spriteID: a3b450663da7f024786f99c88069c0c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2357, y: 5052}
+    spritePosition: {x: 1984, y: 1256}
+  - name: structure wall vertical 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3844
+      y: 2012
+      width: 135
+      height: 720
+    spriteID: 28f5e4e1d450f5d4ab690275b9ec57e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3844, y: 2012}
+    spritePosition: {x: 3617, y: 1129}
+  - name: structure bowl with object
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3745
+      y: 1697
+      width: 251
+      height: 253
+    spriteID: 9ae4cdfb490b8144bb3d8d1ae7da3d7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3745, y: 1697}
+    spritePosition: {x: 3359, y: 1564}
+  - name: object door damaged teal
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3935
+      y: 1462
+      width: 135
+      height: 226
+    spriteID: 267554119c21f614e84f5e8279f2856e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3935, y: 1462}
+    spritePosition: {x: 2704, y: 1343}
+  - name: structure wall with large crack
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3392
+      y: 1697
+      width: 345
+      height: 295
+    spriteID: e71e9bed60af03545a24c886e3cd856d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3392, y: 1697}
+    spritePosition: {x: 2947, y: 1285}
+  - name: structure tower with window
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3392
+      y: 1036
+      width: 365
+      height: 653
+    spriteID: 9775930f8397c9d4ca098e7646d9f1cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3392, y: 1036}
+    spritePosition: {x: 3859, y: 1240}
+  - name: structure wall with window
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 3409
+      width: 343
+      height: 332
+    spriteID: 9849f0318d2a35949a542bda2a41ad9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 3409}
+    spritePosition: {x: 4318, y: 1590}
+  - name: structure wall damaged
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 3044
+      width: 360
+      height: 357
+    spriteID: 697fb9991888e3541b8c7144aea85f50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 3044}
+    spritePosition: {x: 4746, y: 1520}
+  - name: object bushes
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1281
+      y: 5837
+      width: 1536
+      height: 162
+    spriteID: f7a49fe348c2c29408cbd0bcfba382f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1281, y: 5837}
+    spritePosition: {x: 1994, y: 1126}
+  - name: flame medium 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3620
+      y: 3044
+      width: 58
+      height: 78
+    spriteID: 11f464f768a9aaa4db81c3c67d9911e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3620, y: 3044}
+    spritePosition: {x: 1994, y: 1769}
+  - name: flame large 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3727
+      y: 3791
+      width: 84
+      height: 107
+    spriteID: b532b56568bd168409296eb569a7ade1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3727, y: 3791}
+    spritePosition: {x: 2059, y: 1769}
+  - name: flame medium 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4004
+      y: 1783
+      width: 60
+      height: 81
+    spriteID: 9d0aaf7d3bfaabd4d8361126a5e867cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4004, y: 1783}
+    spritePosition: {x: 2150, y: 1769}
+  - name: flame large 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4032
+      y: 5726
+      width: 55
+      height: 92
+    spriteID: bfd68e2178fa3d04cb6e03d44f4173a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4032, y: 5726}
+    spritePosition: {x: 2231, y: 1769}
+  - name: flame small 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3765
+      y: 1613
+      width: 87
+      height: 50
+    spriteID: 7d167cd054c899c4985f6b2b33823c72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3765, y: 1613}
+    spritePosition: {x: 2373, y: 1773}
+  - name: flame small 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 643
+      y: 8008
+      width: 54
+      height: 64
+    spriteID: 488c0d0214389024a9f5433dd65548fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 643, y: 8008}
+    spritePosition: {x: 2311, y: 1773}
+  - name: flame smalll 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3620
+      y: 3192
+      width: 58
+      height: 56
+    spriteID: 182c962b61dccb04da61fc617b88a940
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3620, y: 3192}
+    spritePosition: {x: 3015, y: 1773}
+  - name: flame medium 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3629
+      y: 3314
+      width: 67
+      height: 78
+    spriteID: e6672af29df3be54fac8f99d8120786b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3629, y: 3314}
+    spritePosition: {x: 2614, y: 1771}
+  - name: flame medium 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3644
+      y: 3738
+      width: 44
+      height: 73
+    spriteID: fd0ca635c3a5c3b45b092a936c79a08f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3644, y: 3738}
+    spritePosition: {x: 2939, y: 1771}
+  - name: flame medium 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3727
+      y: 3906
+      width: 65
+      height: 77
+    spriteID: 9c07acd35f330a047aafb185cf04adf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3727, y: 3906}
+    spritePosition: {x: 2537, y: 1771}
+  - name: flame medium 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3860
+      y: 1613
+      width: 52
+      height: 74
+    spriteID: 4805ee704f0d1d8479b5864fbb2d936a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3860, y: 1613}
+    spritePosition: {x: 2857, y: 1771}
+  - name: flame medium 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4004
+      y: 1697
+      width: 64
+      height: 78
+    spriteID: 1b2d0f1cd621a8741879e98ca1de2cda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4004, y: 1697}
+    spritePosition: {x: 2773, y: 1771}
+  - name: flame medium 8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4004
+      y: 1872
+      width: 62
+      height: 75
+    spriteID: 08b06277615addc4ab1fe32fa468d0a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4004, y: 1872}
+    spritePosition: {x: 2695, y: 1771}
+  - name: flame medium 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3644
+      y: 3892
+      width: 43
+      height: 61
+    spriteID: 51455aa0f630def4eba1be314edc8c5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3644, y: 3892}
+    spritePosition: {x: 2470, y: 1771}
+  - name: flame medium 10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3644
+      y: 3819
+      width: 48
+      height: 65
+    spriteID: c59eb6666cacccd4a8bb0a77b8fb6c54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3644, y: 3819}
+    spritePosition: {x: 3094, y: 1771}
+  - name: candle small
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4016
+      y: 1036
+      width: 58
+      height: 115
+    spriteID: 1d58c073aa1ef82418b5959fc5b26852
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4016, y: 1036}
+    spritePosition: {x: 4922, y: 280}
+  - name: candle stand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3987
+      y: 3791
+      width: 85
+      height: 221
+    spriteID: 60ea3e7a77efbff4eb6f60b5eb1d01de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3987, y: 3791}
+    spritePosition: {x: 2200, y: 428}
+  - name: holder cup 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 643
+      y: 8080
+      width: 38
+      height: 23
+    spriteID: 4a94268b153576e46b2976a5d7ca8707
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 643, y: 8080}
+    spritePosition: {x: 2318, y: 1693}
+  - name: holder cup 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3644
+      y: 3961
+      width: 48
+      height: 36
+    spriteID: 7eef24387c5d02a4090dba4c2e5fbfab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3644, y: 3961}
+    spritePosition: {x: 2987, y: 1680}
+  - name: holder cup 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4016
+      y: 1159
+      width: 54
+      height: 33
+    spriteID: 27f8972232c21a348b32c0fd0d5d1a24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4016, y: 1159}
+    spritePosition: {x: 2647, y: 1683}
+  - name: 'holder holder '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3727
+      y: 3991
+      width: 46
+      height: 9
+    spriteID: 37863f839c2eda347b0c8d9fe8884861
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3727, y: 3991}
+    spritePosition: {x: 2763, y: 1707}
+  - name: holder plate 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3993
+      y: 1958
+      width: 82
+      height: 30
+    spriteID: f4a8b4ef1c9f1a64dafdd1703e8147a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3993, y: 1958}
+    spritePosition: {x: 2521, y: 1686}
+  - name: holder plate 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3781
+      y: 3991
+      width: 36
+      height: 11
+    spriteID: 317ebf230630d4b4f8c2293146a01135
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3781, y: 3991}
+    spritePosition: {x: 2207, y: 1705}
+  - name: holder plate 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3765
+      y: 1671
+      width: 75
+      height: 12
+    spriteID: de8abbb70cd334a46af5a28a5fba2de4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3765, y: 1671}
+    spritePosition: {x: 2412, y: 1704}
+  - name: holder plate 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3620
+      y: 3289
+      width: 59
+      height: 12
+    spriteID: a849327b15ac89a4ea84c06c07927e0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3620, y: 3289}
+    spritePosition: {x: 2869, y: 1704}
+  - name: holder plate 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3620
+      y: 3256
+      width: 81
+      height: 25
+    spriteID: 281832ee96b35264fa3b5da534185f58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3620, y: 3256}
+    spritePosition: {x: 1960, y: 1691}
+  - name: object table medium
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3844
+      y: 2740
+      width: 113
+      height: 139
+    spriteID: e596b6a1ea34dc240aa88c2811fb6f09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3844, y: 2740}
+    spritePosition: {x: 1989, y: 99}
+  - name: object table with candles
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 3749
+      width: 298
+      height: 257
+    spriteID: 6a2d8854b1c96314dac211131aab148c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 3749}
+    spritePosition: {x: 2340, y: 428}
+  - name: object small wood pieces
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3380
+      y: 3314
+      width: 120
+      height: 84
+    spriteID: 7e50ae0e689a14140b4195fc8812a2ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3380, y: 3314}
+    spritePosition: {x: 1936, y: 97}
+  - name: object shelf tall
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3634
+      y: 5052
+      width: 242
+      height: 658
+    spriteID: 01cce3cd217de28448e914b40089ac11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3634, y: 5052}
+    spritePosition: {x: 2909, y: 241}
+  - name: object table small
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3765
+      y: 1461
+      width: 149
+      height: 144
+    spriteID: 844568957b7bef04aae5afa5a024b91a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3765, y: 1461}
+    spritePosition: {x: 4520, y: 377}
+  - name: object door wood
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3935
+      y: 1208
+      width: 151
+      height: 246
+    spriteID: 790e1b2ab34ebc441abede32bea5bf81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3935, y: 1208}
+    spritePosition: {x: 3578, y: 97}
+  - name: object shelf empty
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3745
+      y: 1958
+      width: 240
+      height: 42
+    spriteID: ddd93b083f0243744ae827d9e2889b28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3745, y: 1958}
+    spritePosition: {x: 5515, y: 1361}
+  - name: object shelf w package
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1281
+      y: 6117
+      width: 206
+      height: 110
+    spriteID: f136a6046dd370c489e1ef3385749bd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1281, y: 6117}
+    spritePosition: {x: 5184, y: 1214}
+  - name: object hanging red cloth
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3765
+      y: 1208
+      width: 162
+      height: 245
+    spriteID: 84910ea5051974f458a39f807b0980b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3765, y: 1208}
+    spritePosition: {x: 5556, y: 1469}
+  - name: object small basket
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3508
+      y: 3314
+      width: 113
+      height: 81
+    spriteID: a6169d760bcd8964ea3aa39e7b6eee08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3508, y: 3314}
+    spritePosition: {x: 3767, y: 93}
+  - name: object shelf large
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3363
+      y: 3738
+      width: 273
+      height: 265
+    spriteID: 852d67b0110d1cd46b3a1bccab33846b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3363, y: 3738}
+    spritePosition: {x: 2437, y: 662}
+  - name: object wall piece 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3884
+      y: 5052
+      width: 187
+      height: 233
+    spriteID: 293f0611cda818d46839ba2be71f54d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3884, y: 5052}
+    spritePosition: {x: 5111, y: 1244}
+  - name: object stone platform uneven
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2403
+      y: 6007
+      width: 341
+      height: 74
+    spriteID: 003f7a8bdcc5c2247a8cda437784c638
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2403, y: 6007}
+    spritePosition: {x: 4301, y: 1431}
+  - name: object wall piece 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3884
+      y: 5293
+      width: 169
+      height: 248
+    spriteID: 19382f4b9172734499d7a22d9eac3add
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3884, y: 5293}
+    spritePosition: {x: 5663, y: 1323}
+  - name: object shelf potions
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3765
+      y: 1036
+      width: 243
+      height: 164
+    spriteID: d565e159f199a7947b57e22d45a71acf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3765, y: 1036}
+    spritePosition: {x: 3951, y: 591}
+  - name: object caibinet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3380
+      y: 3044
+      width: 232
+      height: 262
+    spriteID: 700ef68350e86a34f97bf87f41d66c2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3380, y: 3044}
+    spritePosition: {x: 4022, y: 97}
+  - name: object shelf small
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3844
+      y: 2887
+      width: 119
+      height: 93
+    spriteID: ae608cbcfd2edd8498af49fbbdea392b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3844, y: 2887}
+    spritePosition: {x: 3970, y: 888}
+  - name: object small box
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3620
+      y: 3130
+      width: 64
+      height: 54
+    spriteID: 02aec3093b621c648bbee6d1b1b5bb74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3620, y: 3130}
+    spritePosition: {x: 4445, y: 97}
+  - name: object small table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3884
+      y: 5549
+      width: 203
+      height: 148
+    spriteID: 694f80ea383f3aa438bfe2c7d9e8db45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3884, y: 5549}
+    spritePosition: {x: 4937, y: 91}
+  - name: object shelf potions large
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2986
+      y: 5422
+      width: 640
+      height: 238
+    spriteID: 4e087139b16d3474b909729096499945
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2986, y: 5422}
+    spritePosition: {x: 5214, y: 911}
+  - name: walls left side
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3727
+      y: 2012
+      width: 109
+      height: 1771
+    spriteID: 1ed578bd978b4ca4dac76a4234fe12ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3727, y: 2012}
+    spritePosition: {x: 1831, y: 91}
+  - name: walls right side
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3987
+      y: 2012
+      width: 54
+      height: 1771
+    spriteID: de76e6fa528b69e418fcbe49be6f9b86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3987, y: 2012}
+    spritePosition: {x: 5946, y: 94}
+  - name: floor stone full
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1281
+      y: 5726
+      width: 2743
+      height: 103
+    spriteID: c392d00f656675248933dfc04f4f436c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1281, y: 5726}
+    spritePosition: {x: 625, y: 0}
+  - name: floor stone piece 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8008
+      width: 631
+      height: 102
+    spriteID: d0128fdbf96aa6c47a8486f1217cbfff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 8008}
+    spritePosition: {x: 4894, y: 0}
+  - name: floor stone piece 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1914
+      y: 6007
+      width: 481
+      height: 101
+    spriteID: 7a4a20d777647ed4e83009041f9a46cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1914, y: 6007}
+    spritePosition: {x: 5519, y: 0}
+  - name: floor stone piece 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1281
+      y: 6007
+      width: 625
+      height: 102
+    spriteID: 27c9203b396431d4d99630ec782b8bf5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1281, y: 6007}
+    spritePosition: {x: 4269, y: 0}
+  - name: structure
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 7613
+      width: 644
+      height: 387
+    spriteID: 28a6cc055bbffd345ab0971c2cb37b93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 7613}
+    spritePosition: {x: 2073, y: 66}
+  - name: structure stone
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3363
+      y: 3409
+      width: 354
+      height: 321
+    spriteID: 91472371ed9332c4e8bcf81367cc2649
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3363, y: 3409}
+    spritePosition: {x: 4490, y: 95}
+  - name: structure weird wood tower
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 1036
+      width: 372
+      height: 966
+    spriteID: b679f04b09cb5c340a0557042fb23d09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 1036}
+    spritePosition: {x: 4472, y: 245}
+  - name: structure potion station
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 706
+      y: 6581
+      width: 668
+      height: 1024
+    spriteID: 663ca22701c69184d8aa4f49ec96d33e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 706, y: 6581}
+    spritePosition: {x: 5168, y: 52}
+  - name: structure stone tower
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 5726
+      width: 1269
+      height: 847
+    spriteID: 532221d504b4b2d4cae08ee452f78dd7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 5726}
+    spritePosition: {x: 3112, y: 95}
+  - name: background black overlay
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4020
+      width: 2974
+      height: 1698
+    spriteID: dc1356b8935ea854592810cacf0217ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4020}
+    spritePosition: {x: 2997, y: 0}
+  - name: background stone 1.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6581
+      width: 694
+      height: 1024
+    spriteID: 88dc0d4b513e6b54d9b09978ffec63e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 6581}
+    spritePosition: {x: 5306, y: 71}
+  - name: background stone 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2986
+      y: 4020
+      width: 1024
+      height: 1024
+    spriteID: 629528c2f98c2c249bfa39a129651b0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2986, y: 4020}
+    spritePosition: {x: 4439, y: 71}
+  - name: background stone 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 4
+      width: 1024
+      height: 1024
+    spriteID: b8c1d68d64dbd7640a52c3064b34feba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 4}
+    spritePosition: {x: 3557, y: 71}
+  - name: background stone 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3012
+      y: 2012
+      width: 707
+      height: 1024
+    spriteID: 0e1bcaace1c9f9947a4643871ba2ddfd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3012, y: 2012}
+    spritePosition: {x: 3000, y: 71}
+  - name: background black w stone
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 3000
+      height: 2000
+    spriteID: 6db6eb5d708590446b1c283febbdd8f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 36, y: 0}
+  - name: 'background black '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2012
+      width: 3000
+      height: 2000
+    spriteID: 096bf61dc4fffbf488f3d5caa19e39d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2012}
+    spritePosition: {x: 3000, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 0
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 1
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers:
+  - name: dungeon
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 51d17d5a5d56d88498f3d93eec9a008c
+    layerID: 199
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: duplicates
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 4b0d1f8e4932c5a449896ef69820279b
+    layerID: 196
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: duplicate floor stone
+    spriteName: duplicate floor stone
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 5a557649f09213f4292be96610f160e1
+    layerID: 56
+    mosaicPosition: {x: 2825, y: 5837}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: extra
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 223b1a25fcac64a43b151dde0a2072fa
+    layerID: 99
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: object shelf empty 2
+    spriteName: object shelf empty 2
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 6cb196b0d6c19814d96a49bb45c44d51
+    layerID: 192
+    mosaicPosition: {x: 2986, y: 5668}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure window with plants
+    spriteName: structure window with plants
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 4bcbf2a6d0f2df142af729c2cd181b05
+    layerID: 101
+    mosaicPosition: {x: 2986, y: 5052}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure wall vertical 1
+    spriteName: structure wall vertical 1
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 34f26187e760365438a0b996bb538405
+    layerID: 97
+    mosaicPosition: {x: 3844, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure bowl with object
+    spriteName: structure bowl with object
+    isGroup: 0
+    parentIndex: 3
+    spriteID: aec6234a369bcf8499911ed270db9686
+    layerID: 144
+    mosaicPosition: {x: 3745, y: 1697}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object door damaged teal
+    spriteName: object door damaged teal
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 298230195fad5e144b243d5a13dd6617
+    layerID: 150
+    mosaicPosition: {x: 3935, y: 1462}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure wall with large crack
+    spriteName: structure wall with large crack
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 42f7203e09e1cfb47a421a7045fdfea8
+    layerID: 103
+    mosaicPosition: {x: 3392, y: 1697}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure tower with window
+    spriteName: structure tower with window
+    isGroup: 0
+    parentIndex: 3
+    spriteID: b0cf601c4aad8b548912c020ba7e2c38
+    layerID: 102
+    mosaicPosition: {x: 3392, y: 1036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure wall with window
+    spriteName: structure wall with window
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 875f8bb31be38cf4bbe86abf5b11237a
+    layerID: 104
+    mosaicPosition: {x: 3012, y: 3409}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure wall damaged
+    spriteName: structure wall damaged
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 4e30365438c151041ad669e37b9428e9
+    layerID: 107
+    mosaicPosition: {x: 3012, y: 3044}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object bushes
+    spriteName: object bushes
+    isGroup: 0
+    parentIndex: 3
+    spriteID: ba2a58c81104abd48885b5b96e7d6f1c
+    layerID: 26
+    mosaicPosition: {x: 1281, y: 5837}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: bd9c6c01552a85843b868eebc2276a38
+    layerID: 167
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: flame glow 1.png
+    spriteName: flame glow 1.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: d001d842d1873e345baec02a21d969a5
+    layerID: 202
+    mosaicPosition: {x: 3825, y: 3991}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 1.png
+    spriteName: flame medium 1.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: c943d188bd7115f4cb98879383ffd933
+    layerID: 163
+    mosaicPosition: {x: 3620, y: 3044}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame large 1.png
+    spriteName: flame large 1.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 94bb0892f94badf40956e15454a5cdcb
+    layerID: 164
+    mosaicPosition: {x: 3727, y: 3791}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 2.png
+    spriteName: flame medium 2.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 9e9945d4c017d2143924281456735d4f
+    layerID: 165
+    mosaicPosition: {x: 4004, y: 1783}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame large 2.png
+    spriteName: flame large 2.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 1f2a0a52d18072743a32eb4ceba84691
+    layerID: 169
+    mosaicPosition: {x: 4032, y: 5726}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame small 1.png
+    spriteName: flame small 1.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 3e2cd443175030f4e9e30f9e9d258d36
+    layerID: 170
+    mosaicPosition: {x: 3765, y: 1613}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame small 2.png
+    spriteName: flame small 2.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 08321ea3d926c5645972abd3fa0fcffc
+    layerID: 171
+    mosaicPosition: {x: 643, y: 8008}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame smalll 3.png
+    spriteName: flame smalll 3.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 5b99b0420d7a82c48be98f7c5d808e2a
+    layerID: 172
+    mosaicPosition: {x: 3620, y: 3192}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 3.png
+    spriteName: flame medium 3.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 115c5bd77255927449ec890296aab14d
+    layerID: 173
+    mosaicPosition: {x: 3629, y: 3314}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 4.png
+    spriteName: flame medium 4.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: bf867df46087e0542bc4d976449b887a
+    layerID: 174
+    mosaicPosition: {x: 3644, y: 3738}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 5.png
+    spriteName: flame medium 5.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: c0ab6f9afd14ab74cb7da10199d73220
+    layerID: 176
+    mosaicPosition: {x: 3727, y: 3906}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 6.png
+    spriteName: flame medium 6.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 7d8a78d8fde25d744a33932fa7d20ff1
+    layerID: 177
+    mosaicPosition: {x: 3860, y: 1613}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 7.png
+    spriteName: flame medium 7.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: b181e68f9c9fb6c4195b2cac95189972
+    layerID: 178
+    mosaicPosition: {x: 4004, y: 1697}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 8.png
+    spriteName: flame medium 8.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 51671c1fcf3b8b74399db1f333a1ec14
+    layerID: 179
+    mosaicPosition: {x: 4004, y: 1872}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 9.png
+    spriteName: flame medium 9.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 87d4af96b28fb884392fb449126749dd
+    layerID: 180
+    mosaicPosition: {x: 3644, y: 3892}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 10.png
+    spriteName: flame medium 10.png
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 69a2c1ea9935fe743a2d6ae168965714
+    layerID: 181
+    mosaicPosition: {x: 3644, y: 3819}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame holder
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 9ebd15f36a9601f4fba19321ae2161f0
+    layerID: 194
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: candle small
+    spriteName: candle small
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 2a97c88ef37cf054394673d840275b03
+    layerID: 74
+    mosaicPosition: {x: 4016, y: 1036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: candle stand
+    spriteName: candle stand
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 42cf804b0ed56ee4a9a2a8fcaf04f325
+    layerID: 143
+    mosaicPosition: {x: 3987, y: 3791}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder cup 3
+    spriteName: holder cup 3
+    isGroup: 0
+    parentIndex: 31
+    spriteID: b8d15f9623be92a4a9e5b202a589ca37
+    layerID: 182
+    mosaicPosition: {x: 643, y: 8080}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder cup 1
+    spriteName: holder cup 1
+    isGroup: 0
+    parentIndex: 31
+    spriteID: f72d45c06e51de148af9c0a3afae653b
+    layerID: 183
+    mosaicPosition: {x: 3644, y: 3961}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder cup 2
+    spriteName: holder cup 2
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 8e1ca0e8ae7577f4980174f6ae605abe
+    layerID: 184
+    mosaicPosition: {x: 4016, y: 1159}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 'holder holder '
+    spriteName: 'holder holder '
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 4373be81ea524ef41b422938fdd13423
+    layerID: 185
+    mosaicPosition: {x: 3727, y: 3991}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder plate 2
+    spriteName: holder plate 2
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 0ccae5858b7a66040912bc7aece205b8
+    layerID: 186
+    mosaicPosition: {x: 3993, y: 1958}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder plate 3
+    spriteName: holder plate 3
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 94340f7e8419d7d4c843ceb906d4387a
+    layerID: 187
+    mosaicPosition: {x: 3781, y: 3991}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder plate 4
+    spriteName: holder plate 4
+    isGroup: 0
+    parentIndex: 31
+    spriteID: be7d5d6013e08e4459d56cb6dfacc2b6
+    layerID: 188
+    mosaicPosition: {x: 3765, y: 1671}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder plate 5
+    spriteName: holder plate 5
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 561fc9f087854614caaa505ef2e3ae12
+    layerID: 189
+    mosaicPosition: {x: 3620, y: 3289}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder plate 6
+    spriteName: holder plate 6
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 67d6f1c4ac1ca3e448fafbe9c10f43e5
+    layerID: 191
+    mosaicPosition: {x: 3620, y: 3256}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: objects
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: d72c1d45dccca2c41bb4ede13a4341bc
+    layerID: 95
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: object table medium
+    spriteName: object table medium
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 883935e8635df5248bedb1b87e289c26
+    layerID: 190
+    mosaicPosition: {x: 3844, y: 2740}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object table with candles
+    spriteName: object table with candles
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 11470c12a38d00a4ebef97029af29341
+    layerID: 142
+    mosaicPosition: {x: 3012, y: 3749}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object small wood pieces
+    spriteName: object small wood pieces
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 26fe27e3966f0084fa20c68ecb062146
+    layerID: 154
+    mosaicPosition: {x: 3380, y: 3314}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf tall
+    spriteName: object shelf tall
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 04942b80d5aca4a428aee1617caf1bcb
+    layerID: 108
+    mosaicPosition: {x: 3634, y: 5052}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object table small
+    spriteName: object table small
+    isGroup: 0
+    parentIndex: 43
+    spriteID: a43892e15473c7b41a37c23fbb36ec9c
+    layerID: 85
+    mosaicPosition: {x: 3765, y: 1461}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object door wood
+    spriteName: object door wood
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 746887a689a0b0f498868f1088855258
+    layerID: 86
+    mosaicPosition: {x: 3935, y: 1208}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf empty
+    spriteName: object shelf empty
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 99ba4af85de26d74ea034087f91d35e7
+    layerID: 87
+    mosaicPosition: {x: 3745, y: 1958}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf w package
+    spriteName: object shelf w package
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 8b031cd0a8ca50c4796ae1d0737b3775
+    layerID: 88
+    mosaicPosition: {x: 1281, y: 6117}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object hanging red cloth
+    spriteName: object hanging red cloth
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 664cf49f460015a4fae271647cf169b3
+    layerID: 152
+    mosaicPosition: {x: 3765, y: 1208}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object small basket
+    spriteName: object small basket
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 49fda77054a81fd49a8f1219099b8410
+    layerID: 153
+    mosaicPosition: {x: 3508, y: 3314}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf large
+    spriteName: object shelf large
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 5afa7a77fd2abfc49a443b085ae298f6
+    layerID: 90
+    mosaicPosition: {x: 3363, y: 3738}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object wall piece 1
+    spriteName: object wall piece 1
+    isGroup: 0
+    parentIndex: 43
+    spriteID: e8c6444eacfc4b54ba52fffb2d58300b
+    layerID: 91
+    mosaicPosition: {x: 3884, y: 5052}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object stone platform uneven
+    spriteName: object stone platform uneven
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 509d38bcd2238074f8f4ac2b6d3bc0b6
+    layerID: 28
+    mosaicPosition: {x: 2403, y: 6007}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object wall piece 2
+    spriteName: object wall piece 2
+    isGroup: 0
+    parentIndex: 43
+    spriteID: bc355bd2590fd4d49af8cb8ab6857198
+    layerID: 92
+    mosaicPosition: {x: 3884, y: 5293}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf potions
+    spriteName: object shelf potions
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 40ab1054d6ae75a4f9f91764bcb535ea
+    layerID: 34
+    mosaicPosition: {x: 3765, y: 1036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object caibinet
+    spriteName: object caibinet
+    isGroup: 0
+    parentIndex: 43
+    spriteID: f006a158927752a4ab4813f4eadfb46a
+    layerID: 43
+    mosaicPosition: {x: 3380, y: 3044}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf small
+    spriteName: object shelf small
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 3f77bb2046eff484cbea8c775018ecee
+    layerID: 44
+    mosaicPosition: {x: 3844, y: 2887}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object small box
+    spriteName: object small box
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 1e2ebe484386f0f4ea7a1f258a3950c7
+    layerID: 42
+    mosaicPosition: {x: 3620, y: 3130}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object small table
+    spriteName: object small table
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 495b3fd1bf4246e4a9330c4bd6f6d808
+    layerID: 76
+    mosaicPosition: {x: 3884, y: 5549}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf potions large
+    spriteName: object shelf potions large
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 6c5e4ab159251fa438a403dac6c8bd5f
+    layerID: 36
+    mosaicPosition: {x: 2986, y: 5422}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: side walls
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 64bf771745f79e3449722cbfd707c141
+    layerID: 67
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: walls left side
+    spriteName: walls left side
+    isGroup: 0
+    parentIndex: 64
+    spriteID: cd712ba30e366cf45bc14a22b8c6d59e
+    layerID: 71
+    mosaicPosition: {x: 3727, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: walls right side
+    spriteName: walls right side
+    isGroup: 0
+    parentIndex: 64
+    spriteID: eaf19e7ec70a14041b0eb727a7bdb26d
+    layerID: 70
+    mosaicPosition: {x: 3987, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: floor
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: f373f68f4c3b84d488d16748edaf1a19
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: floor stone full
+    spriteName: floor stone full
+    isGroup: 0
+    parentIndex: 67
+    spriteID: 1379ee66cf575124ba769c3ffa5d0280
+    layerID: 124
+    mosaicPosition: {x: 1281, y: 5726}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: floor stone piece 1
+    spriteName: floor stone piece 1
+    isGroup: 0
+    parentIndex: 67
+    spriteID: 6d2d9b3a8ee73e143b8f169204879f78
+    layerID: 62
+    mosaicPosition: {x: 4, y: 8008}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: floor stone piece 2
+    spriteName: floor stone piece 2
+    isGroup: 0
+    parentIndex: 67
+    spriteID: 51441032138ae174295b83af2987bf3b
+    layerID: 61
+    mosaicPosition: {x: 1914, y: 6007}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: floor stone piece 3
+    spriteName: floor stone piece 3
+    isGroup: 0
+    parentIndex: 67
+    spriteID: 7d1ae20ce44d35c45821efcb1286b22f
+    layerID: 57
+    mosaicPosition: {x: 1281, y: 6007}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structures
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 79975b3cf4ac82f4fa62acaf2e9c8323
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: structure
+    spriteName: structure
+    isGroup: 0
+    parentIndex: 72
+    spriteID: c263ff979aa89c64ebb346b363b23c87
+    layerID: 149
+    mosaicPosition: {x: 4, y: 7613}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure stone
+    spriteName: structure stone
+    isGroup: 0
+    parentIndex: 72
+    spriteID: 860b019f07841e54982b1e76674fd6fd
+    layerID: 46
+    mosaicPosition: {x: 3363, y: 3409}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure weird wood tower
+    spriteName: structure weird wood tower
+    isGroup: 0
+    parentIndex: 72
+    spriteID: 07ef26641fbc46444b8157b6eee9b74d
+    layerID: 77
+    mosaicPosition: {x: 3012, y: 1036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure potion station
+    spriteName: structure potion station
+    isGroup: 0
+    parentIndex: 72
+    spriteID: cdbefc54a989ebf4f8e926f33bf82c2d
+    layerID: 80
+    mosaicPosition: {x: 706, y: 6581}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure stone tower
+    spriteName: structure stone tower
+    isGroup: 0
+    parentIndex: 72
+    spriteID: 27a212a92537c15448e20db6f68d48bd
+    layerID: 49
+    mosaicPosition: {x: 4, y: 5726}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: cf443c5da0acd2c4b912e73435e36a41
+    layerID: 15
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: background black overlay
+    spriteName: background black overlay
+    isGroup: 0
+    parentIndex: 78
+    spriteID: 20cdeb5e84aae08468ec398cfe00eeb9
+    layerID: 22
+    mosaicPosition: {x: 4, y: 4020}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background stone 1
+    spriteName: background stone 1
+    isGroup: 0
+    parentIndex: 78
+    spriteID: 25480401715ba514ebd31b05716ade32
+    layerID: 13
+    mosaicPosition: {x: 4, y: 6581}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background stone 2
+    spriteName: background stone 2
+    isGroup: 0
+    parentIndex: 78
+    spriteID: 5332a7de692116e47b1c22a48622521b
+    layerID: 10
+    mosaicPosition: {x: 2986, y: 4020}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background stone 3
+    spriteName: background stone 3
+    isGroup: 0
+    parentIndex: 78
+    spriteID: 07d62ae064c1bc141b3a6ef4122e38e8
+    layerID: 9
+    mosaicPosition: {x: 3012, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background stone 4
+    spriteName: background stone 4
+    isGroup: 0
+    parentIndex: 78
+    spriteID: 8b3c47555ac26dc40a0447ec90c723f2
+    layerID: 2
+    mosaicPosition: {x: 3012, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background black w stone
+    spriteName: background black w stone
+    isGroup: 0
+    parentIndex: 78
+    spriteID: a92f155dad0215047a14ab120789381d
+    layerID: 116
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 'background black '
+    spriteName: 'background black '
+    isGroup: 0
+    parentIndex: 78
+    spriteID: c4f2125080178d74d81d176e7d0451f2
+    layerID: 11
+    mosaicPosition: {x: 4, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  rigPSDLayers:
+  - name: dungeon
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: acafdce5c6ec65d469082cbbf6d42bab
+    layerID: 199
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: duplicates
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 9e309a27ef235784eb946012bc3163d6
+    layerID: 196
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: duplicate floor stone
+    spriteName: duplicate floor stone
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 727cd5aa2df269748860cdc9d0fa916d
+    layerID: 56
+    mosaicPosition: {x: 2825, y: 5837}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: extra
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: e13e8c562854ee140b9fd9fa0141c10a
+    layerID: 99
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: object shelf empty 2
+    spriteName: object shelf empty 2
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 22cef8ce0d42764408fcfbf4e789bec1
+    layerID: 192
+    mosaicPosition: {x: 2986, y: 5668}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure window with plants
+    spriteName: structure window with plants
+    isGroup: 0
+    parentIndex: 3
+    spriteID: a3b450663da7f024786f99c88069c0c4
+    layerID: 101
+    mosaicPosition: {x: 2986, y: 5052}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure wall vertical 1
+    spriteName: structure wall vertical 1
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 28f5e4e1d450f5d4ab690275b9ec57e1
+    layerID: 97
+    mosaicPosition: {x: 3844, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure bowl with object
+    spriteName: structure bowl with object
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 9ae4cdfb490b8144bb3d8d1ae7da3d7d
+    layerID: 144
+    mosaicPosition: {x: 3745, y: 1697}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object door damaged teal
+    spriteName: object door damaged teal
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 267554119c21f614e84f5e8279f2856e
+    layerID: 150
+    mosaicPosition: {x: 3935, y: 1462}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure wall with large crack
+    spriteName: structure wall with large crack
+    isGroup: 0
+    parentIndex: 3
+    spriteID: e71e9bed60af03545a24c886e3cd856d
+    layerID: 103
+    mosaicPosition: {x: 3392, y: 1697}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure tower with window
+    spriteName: structure tower with window
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 9775930f8397c9d4ca098e7646d9f1cb
+    layerID: 102
+    mosaicPosition: {x: 3392, y: 1036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure wall with window
+    spriteName: structure wall with window
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 9849f0318d2a35949a542bda2a41ad9c
+    layerID: 104
+    mosaicPosition: {x: 3012, y: 3409}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure wall damaged
+    spriteName: structure wall damaged
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 697fb9991888e3541b8c7144aea85f50
+    layerID: 107
+    mosaicPosition: {x: 3012, y: 3044}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object bushes
+    spriteName: object bushes
+    isGroup: 0
+    parentIndex: 3
+    spriteID: f7a49fe348c2c29408cbd0bcfba382f3
+    layerID: 26
+    mosaicPosition: {x: 1281, y: 5837}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: d1f52209f46c35e46805c5084822efb6
+    layerID: 167
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: flame medium 1
+    spriteName: flame medium 1
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 11f464f768a9aaa4db81c3c67d9911e7
+    layerID: 163
+    mosaicPosition: {x: 3620, y: 3044}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame large 1
+    spriteName: flame large 1
+    isGroup: 0
+    parentIndex: 14
+    spriteID: b532b56568bd168409296eb569a7ade1
+    layerID: 164
+    mosaicPosition: {x: 3727, y: 3791}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 2
+    spriteName: flame medium 2
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 9d0aaf7d3bfaabd4d8361126a5e867cc
+    layerID: 165
+    mosaicPosition: {x: 4004, y: 1783}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame large 2
+    spriteName: flame large 2
+    isGroup: 0
+    parentIndex: 14
+    spriteID: bfd68e2178fa3d04cb6e03d44f4173a8
+    layerID: 169
+    mosaicPosition: {x: 4032, y: 5726}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame small 1
+    spriteName: flame small 1
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 7d167cd054c899c4985f6b2b33823c72
+    layerID: 170
+    mosaicPosition: {x: 3765, y: 1613}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame small 2
+    spriteName: flame small 2
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 488c0d0214389024a9f5433dd65548fb
+    layerID: 171
+    mosaicPosition: {x: 643, y: 8008}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame smalll 3
+    spriteName: flame smalll 3
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 182c962b61dccb04da61fc617b88a940
+    layerID: 172
+    mosaicPosition: {x: 3620, y: 3192}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 3
+    spriteName: flame medium 3
+    isGroup: 0
+    parentIndex: 14
+    spriteID: e6672af29df3be54fac8f99d8120786b
+    layerID: 173
+    mosaicPosition: {x: 3629, y: 3314}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 4
+    spriteName: flame medium 4
+    isGroup: 0
+    parentIndex: 14
+    spriteID: fd0ca635c3a5c3b45b092a936c79a08f
+    layerID: 174
+    mosaicPosition: {x: 3644, y: 3738}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 5
+    spriteName: flame medium 5
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 9c07acd35f330a047aafb185cf04adf6
+    layerID: 176
+    mosaicPosition: {x: 3727, y: 3906}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 6
+    spriteName: flame medium 6
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 4805ee704f0d1d8479b5864fbb2d936a
+    layerID: 177
+    mosaicPosition: {x: 3860, y: 1613}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 7
+    spriteName: flame medium 7
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 1b2d0f1cd621a8741879e98ca1de2cda
+    layerID: 178
+    mosaicPosition: {x: 4004, y: 1697}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 8
+    spriteName: flame medium 8
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 08b06277615addc4ab1fe32fa468d0a4
+    layerID: 179
+    mosaicPosition: {x: 4004, y: 1872}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 9
+    spriteName: flame medium 9
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 51455aa0f630def4eba1be314edc8c5b
+    layerID: 180
+    mosaicPosition: {x: 3644, y: 3892}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame medium 10
+    spriteName: flame medium 10
+    isGroup: 0
+    parentIndex: 14
+    spriteID: c59eb6666cacccd4a8bb0a77b8fb6c54
+    layerID: 181
+    mosaicPosition: {x: 3644, y: 3819}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flame holder
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: fbfe25db79d0cd84291680da93fade24
+    layerID: 194
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: candle small
+    spriteName: candle small
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 1d58c073aa1ef82418b5959fc5b26852
+    layerID: 74
+    mosaicPosition: {x: 4016, y: 1036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: candle stand
+    spriteName: candle stand
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 60ea3e7a77efbff4eb6f60b5eb1d01de
+    layerID: 143
+    mosaicPosition: {x: 3987, y: 3791}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder cup 3
+    spriteName: holder cup 3
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 4a94268b153576e46b2976a5d7ca8707
+    layerID: 182
+    mosaicPosition: {x: 643, y: 8080}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder cup 1
+    spriteName: holder cup 1
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 7eef24387c5d02a4090dba4c2e5fbfab
+    layerID: 183
+    mosaicPosition: {x: 3644, y: 3961}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder cup 2
+    spriteName: holder cup 2
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 27f8972232c21a348b32c0fd0d5d1a24
+    layerID: 184
+    mosaicPosition: {x: 4016, y: 1159}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 'holder holder '
+    spriteName: 'holder holder '
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 37863f839c2eda347b0c8d9fe8884861
+    layerID: 185
+    mosaicPosition: {x: 3727, y: 3991}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder plate 2
+    spriteName: holder plate 2
+    isGroup: 0
+    parentIndex: 30
+    spriteID: f4a8b4ef1c9f1a64dafdd1703e8147a8
+    layerID: 186
+    mosaicPosition: {x: 3993, y: 1958}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder plate 3
+    spriteName: holder plate 3
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 317ebf230630d4b4f8c2293146a01135
+    layerID: 187
+    mosaicPosition: {x: 3781, y: 3991}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder plate 4
+    spriteName: holder plate 4
+    isGroup: 0
+    parentIndex: 30
+    spriteID: de8abbb70cd334a46af5a28a5fba2de4
+    layerID: 188
+    mosaicPosition: {x: 3765, y: 1671}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder plate 5
+    spriteName: holder plate 5
+    isGroup: 0
+    parentIndex: 30
+    spriteID: a849327b15ac89a4ea84c06c07927e0e
+    layerID: 189
+    mosaicPosition: {x: 3620, y: 3289}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: holder plate 6
+    spriteName: holder plate 6
+    isGroup: 0
+    parentIndex: 30
+    spriteID: 281832ee96b35264fa3b5da534185f58
+    layerID: 191
+    mosaicPosition: {x: 3620, y: 3256}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: objects
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: f3514cc2c9c12954f8c3674574695bc2
+    layerID: 95
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: object table medium
+    spriteName: object table medium
+    isGroup: 0
+    parentIndex: 42
+    spriteID: e596b6a1ea34dc240aa88c2811fb6f09
+    layerID: 190
+    mosaicPosition: {x: 3844, y: 2740}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object table with candles
+    spriteName: object table with candles
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 6a2d8854b1c96314dac211131aab148c
+    layerID: 142
+    mosaicPosition: {x: 3012, y: 3749}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object small wood pieces
+    spriteName: object small wood pieces
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 7e50ae0e689a14140b4195fc8812a2ec
+    layerID: 154
+    mosaicPosition: {x: 3380, y: 3314}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf tall
+    spriteName: object shelf tall
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 01cce3cd217de28448e914b40089ac11
+    layerID: 108
+    mosaicPosition: {x: 3634, y: 5052}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object table small
+    spriteName: object table small
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 844568957b7bef04aae5afa5a024b91a
+    layerID: 85
+    mosaicPosition: {x: 3765, y: 1461}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object door wood
+    spriteName: object door wood
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 790e1b2ab34ebc441abede32bea5bf81
+    layerID: 86
+    mosaicPosition: {x: 3935, y: 1208}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf empty
+    spriteName: object shelf empty
+    isGroup: 0
+    parentIndex: 42
+    spriteID: ddd93b083f0243744ae827d9e2889b28
+    layerID: 87
+    mosaicPosition: {x: 3745, y: 1958}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf w package
+    spriteName: object shelf w package
+    isGroup: 0
+    parentIndex: 42
+    spriteID: f136a6046dd370c489e1ef3385749bd1
+    layerID: 88
+    mosaicPosition: {x: 1281, y: 6117}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object hanging red cloth
+    spriteName: object hanging red cloth
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 84910ea5051974f458a39f807b0980b3
+    layerID: 152
+    mosaicPosition: {x: 3765, y: 1208}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object small basket
+    spriteName: object small basket
+    isGroup: 0
+    parentIndex: 42
+    spriteID: a6169d760bcd8964ea3aa39e7b6eee08
+    layerID: 153
+    mosaicPosition: {x: 3508, y: 3314}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf large
+    spriteName: object shelf large
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 852d67b0110d1cd46b3a1bccab33846b
+    layerID: 90
+    mosaicPosition: {x: 3363, y: 3738}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object wall piece 1
+    spriteName: object wall piece 1
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 293f0611cda818d46839ba2be71f54d5
+    layerID: 91
+    mosaicPosition: {x: 3884, y: 5052}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object stone platform uneven
+    spriteName: object stone platform uneven
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 003f7a8bdcc5c2247a8cda437784c638
+    layerID: 28
+    mosaicPosition: {x: 2403, y: 6007}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object wall piece 2
+    spriteName: object wall piece 2
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 19382f4b9172734499d7a22d9eac3add
+    layerID: 92
+    mosaicPosition: {x: 3884, y: 5293}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf potions
+    spriteName: object shelf potions
+    isGroup: 0
+    parentIndex: 42
+    spriteID: d565e159f199a7947b57e22d45a71acf
+    layerID: 34
+    mosaicPosition: {x: 3765, y: 1036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object caibinet
+    spriteName: object caibinet
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 700ef68350e86a34f97bf87f41d66c2f
+    layerID: 43
+    mosaicPosition: {x: 3380, y: 3044}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf small
+    spriteName: object shelf small
+    isGroup: 0
+    parentIndex: 42
+    spriteID: ae608cbcfd2edd8498af49fbbdea392b
+    layerID: 44
+    mosaicPosition: {x: 3844, y: 2887}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object small box
+    spriteName: object small box
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 02aec3093b621c648bbee6d1b1b5bb74
+    layerID: 42
+    mosaicPosition: {x: 3620, y: 3130}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object small table
+    spriteName: object small table
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 694f80ea383f3aa438bfe2c7d9e8db45
+    layerID: 76
+    mosaicPosition: {x: 3884, y: 5549}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: object shelf potions large
+    spriteName: object shelf potions large
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 4e087139b16d3474b909729096499945
+    layerID: 36
+    mosaicPosition: {x: 2986, y: 5422}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: side walls
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: c2c24a8c6867a9c45a373ddd6a268f26
+    layerID: 67
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: walls left side
+    spriteName: walls left side
+    isGroup: 0
+    parentIndex: 63
+    spriteID: 1ed578bd978b4ca4dac76a4234fe12ca
+    layerID: 71
+    mosaicPosition: {x: 3727, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: walls right side
+    spriteName: walls right side
+    isGroup: 0
+    parentIndex: 63
+    spriteID: de76e6fa528b69e418fcbe49be6f9b86
+    layerID: 70
+    mosaicPosition: {x: 3987, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: floor
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 82a6c786d4ea7fb4e9347dc44a4f75d1
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: floor stone full
+    spriteName: floor stone full
+    isGroup: 0
+    parentIndex: 66
+    spriteID: c392d00f656675248933dfc04f4f436c
+    layerID: 124
+    mosaicPosition: {x: 1281, y: 5726}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: floor stone piece 1
+    spriteName: floor stone piece 1
+    isGroup: 0
+    parentIndex: 66
+    spriteID: d0128fdbf96aa6c47a8486f1217cbfff
+    layerID: 62
+    mosaicPosition: {x: 4, y: 8008}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: floor stone piece 2
+    spriteName: floor stone piece 2
+    isGroup: 0
+    parentIndex: 66
+    spriteID: 7a4a20d777647ed4e83009041f9a46cb
+    layerID: 61
+    mosaicPosition: {x: 1914, y: 6007}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: floor stone piece 3
+    spriteName: floor stone piece 3
+    isGroup: 0
+    parentIndex: 66
+    spriteID: 27c9203b396431d4d99630ec782b8bf5
+    layerID: 57
+    mosaicPosition: {x: 1281, y: 6007}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structures
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 5e97faaa606d4d948a9f09ebc786bd2c
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: structure
+    spriteName: structure
+    isGroup: 0
+    parentIndex: 71
+    spriteID: 28a6cc055bbffd345ab0971c2cb37b93
+    layerID: 149
+    mosaicPosition: {x: 4, y: 7613}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure stone
+    spriteName: structure stone
+    isGroup: 0
+    parentIndex: 71
+    spriteID: 91472371ed9332c4e8bcf81367cc2649
+    layerID: 46
+    mosaicPosition: {x: 3363, y: 3409}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure weird wood tower
+    spriteName: structure weird wood tower
+    isGroup: 0
+    parentIndex: 71
+    spriteID: b679f04b09cb5c340a0557042fb23d09
+    layerID: 77
+    mosaicPosition: {x: 3012, y: 1036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure potion station
+    spriteName: structure potion station
+    isGroup: 0
+    parentIndex: 71
+    spriteID: 663ca22701c69184d8aa4f49ec96d33e
+    layerID: 80
+    mosaicPosition: {x: 706, y: 6581}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: structure stone tower
+    spriteName: structure stone tower
+    isGroup: 0
+    parentIndex: 71
+    spriteID: 532221d504b4b2d4cae08ee452f78dd7
+    layerID: 49
+    mosaicPosition: {x: 4, y: 5726}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: c85fa0ebb90264d4c81c882cef630a17
+    layerID: 15
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: background black overlay
+    spriteName: background black overlay
+    isGroup: 0
+    parentIndex: 77
+    spriteID: dc1356b8935ea854592810cacf0217ba
+    layerID: 22
+    mosaicPosition: {x: 4, y: 4020}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background stone 1.png
+    spriteName: background stone 1.png
+    isGroup: 0
+    parentIndex: 77
+    spriteID: 88dc0d4b513e6b54d9b09978ffec63e7
+    layerID: 13
+    mosaicPosition: {x: 4, y: 6581}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background stone 2
+    spriteName: background stone 2
+    isGroup: 0
+    parentIndex: 77
+    spriteID: 629528c2f98c2c249bfa39a129651b0b
+    layerID: 10
+    mosaicPosition: {x: 2986, y: 4020}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background stone 3
+    spriteName: background stone 3
+    isGroup: 0
+    parentIndex: 77
+    spriteID: b8c1d68d64dbd7640a52c3064b34feba
+    layerID: 9
+    mosaicPosition: {x: 3012, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background stone 4
+    spriteName: background stone 4
+    isGroup: 0
+    parentIndex: 77
+    spriteID: 0e1bcaace1c9f9947a4643871ba2ddfd
+    layerID: 2
+    mosaicPosition: {x: 3012, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: background black w stone
+    spriteName: background black w stone
+    isGroup: 0
+    parentIndex: 77
+    spriteID: 6db6eb5d708590446b1c283febbdd8f7
+    layerID: 116
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: 'background black '
+    spriteName: 'background black '
+    isGroup: 0
+    parentIndex: 77
+    spriteID: 096bf61dc4fffbf488f3d5caa19e39d9
+    layerID: 11
+    mosaicPosition: {x: 4, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 1
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
