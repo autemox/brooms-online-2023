@@ -24,6 +24,8 @@ public class CharacterEyeFollower : CharacterAbility
     [SerializeField] public float maxMousePriority = 10;
     [SerializeField] public float maxAbilityPriority = 50;
     [SerializeField] public float maxPriority = 100;
+    [SerializeField] public float objectAttentionDistance = 100f; // distance from NPCs or other objects that they catch attention
+    [SerializeField] public float characterFeetToEyeHeight = 1.6f; // Adjust this value as needed for the correct eye height.when looking at NPCs
 
     protected override void Initialization()
     {
@@ -40,6 +42,24 @@ public class CharacterEyeFollower : CharacterAbility
         Vector2 mouseWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.nearClipPlane));
         float mousePriority = 10/Vector2.Distance(mouseWorldPosition, transform.position);
         Targets.Add(new EyeTarget { Name = "Mouse", Position = mouseWorldPosition, Priority = mousePriority < maxMousePriority ? mousePriority : maxMousePriority }) ;
+
+        // Player and NPC objects
+        var playersAndNpcs = new List<GameObject>(GameObject.FindGameObjectsWithTag("Player"));
+        playersAndNpcs.AddRange(GameObject.FindGameObjectsWithTag("NPC"));
+        foreach (GameObject target in playersAndNpcs)
+        {
+            if (target == gameObject) continue; // Skip this object
+            bool isTargetToTheRight = target.transform.position.x > transform.position.x; // Add to Targets only if the target is in the direction the character is facing
+            if ((character.IsFacingRight && isTargetToTheRight) || (!character.IsFacingRight && !isTargetToTheRight))
+            {
+                float distance = Vector2.Distance(target.transform.position, transform.position);
+                if (distance <= objectAttentionDistance)
+                {
+                    float priority = Mathf.Clamp(100 - distance, 0, maxPriority);
+                    Targets.Add(new EyeTarget { Name = target.name, Position = new Vector2(target.transform.position.x, target.transform.position.y + characterFeetToEyeHeight), Priority = priority });
+                }
+            }
+        }
 
         // Priority for running, crouching, and looking up
         float directionMultiplier = character.IsFacingRight ? 5 : -5;

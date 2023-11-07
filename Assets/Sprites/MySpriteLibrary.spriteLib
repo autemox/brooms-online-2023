@@ -441,8 +441,22 @@ MonoBehaviour:
       m_FromMain: 0
       m_SpriteOverride: {fileID: 7105778374066379575, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
         type: 3}
+    - m_Name: scarf wrap plain purple
+      m_Hash: 882293462
+      m_Sprite: {fileID: -3667905498308782449, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3667905498308782449, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: scarf wrap stripe purple
+      m_Hash: 711202479
+      m_Sprite: {fileID: -1055138950626314254, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1055138950626314254, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 5
+    m_EntryOverrideCount: 7
   - m_Name: Torso
     m_Hash: 647926657
     m_CategoryList: []
@@ -725,4 +739,31 @@ MonoBehaviour:
         type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 10
+  - m_Name: Scarf
+    m_Hash: 550462693
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: scarf hang stripe purple
+      m_Hash: 670751561
+      m_Sprite: {fileID: 1880192608540128202, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1880192608540128202, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: scarf hang plain purple
+      m_Hash: 1029558051
+      m_Sprite: {fileID: -3519738609578630575, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3519738609578630575, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    - m_Name: empty sprite
+      m_Hash: 857705491
+      m_Sprite: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3425504742695589900, guid: fe5f5c3e4e0b2b2429526cdf01ad41db,
+        type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
   m_PrimaryLibraryGUID: 

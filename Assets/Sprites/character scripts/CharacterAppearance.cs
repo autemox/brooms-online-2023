@@ -44,6 +44,7 @@ public class CharacterAppearance : MonoBehaviour
     public GameObject eyebrows;
     public GameObject mouth;
     public GameObject head;
+    public GameObject scarf;
     public GameObject handRight;
     public GameObject footRight;
     public GameObject torsoAccessories;
@@ -80,6 +81,7 @@ public class CharacterAppearance : MonoBehaviour
             {"Eyes Back", eyesBack},
             {"Mouth", mouth},
             {"Head", head},
+            {"Scarf", scarf},
             {"Hand Left", handLeft},
             {"Item", item},
             {"Foot Left", footLeft},
@@ -91,11 +93,11 @@ public class CharacterAppearance : MonoBehaviour
         };
 
         // templates for now
-        templates["Anna"] = new string[] { "Foot Right", "foot right boot grey", "Foot Left", "foot left boot grey","Hair Front", "hair front bangs blonde", "Head Accessories", "empty sprite", "Head Features", "head feature freckles", "Eyes", "eyes blue", "Eyes Back", "eyes back eyeliner", "Eyebrows", "eyebrows light", "Mouth", "mouth lips", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "torso accessories necklace gold", "Torso", "torso thin robe purple", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "hair back parted blonde" };
-        templates["Loxie"] = new string[] { "Hair Front", "hair front parted pink", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes green", "Eyes Back", "eyes back eyeliner", "Eyebrows", "eyebrows dark", "Mouth", "mouth lips", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso thin robe purple", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
-        templates["Sevrus"] = new string[] { "Hair Front", "hair front parted black", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes brown", "Eyes Back", "eyes back coy", "Eyebrows", "eyebrows dark", "Mouth", "mouth normal", "Head", "head pointed", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso thin robe black", "Hand Left", "hand left normal", "Item", "empty sprite", "Hair Back", "hair back short black" };
-        templates["Jake"] = new string[] { "Hair Front", "hair front bangs short", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes brown", "Eyes Back", "eyes back normal", "Eyebrows", "eyebrows dark", "Mouth", "mouth silly", "Head", "head round", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso shirt red", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
-        templates["Stew"] = new string[] { "Hair Front", "hair front bangs blonde", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes beedy teal", "Eyes Back", "empty sprite", "Eyebrows", "eyebrows light", "Mouth", "mouth normal", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso robe green_0", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
+        templates["Anna"] = new string[] { "Scarf", "empty sprite", "Foot Right", "foot right boot grey", "Foot Left", "foot left boot grey","Hair Front", "hair front bangs blonde", "Head Accessories", "empty sprite", "Head Features", "head feature freckles", "Eyes", "eyes blue", "Eyes Back", "eyes back eyeliner", "Eyebrows", "eyebrows light", "Mouth", "mouth lips", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "torso accessories necklace gold", "Torso", "torso thin robe purple", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "hair back parted blonde" };
+        templates["Loxie"] = new string[] { "Scarf", "empty sprite", "Hair Front", "hair front parted pink", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes green", "Eyes Back", "eyes back eyeliner", "Eyebrows", "eyebrows dark", "Mouth", "mouth lips", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso thin robe purple", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
+        templates["Sevrus"] = new string[] { "Scarf", "empty sprite", "Hair Front", "hair front parted black", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes brown", "Eyes Back", "eyes back coy", "Eyebrows", "eyebrows dark", "Mouth", "mouth normal", "Head", "head pointed", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso thin robe black", "Hand Left", "hand left normal", "Item", "empty sprite", "Hair Back", "hair back short black" };
+        templates["Jake"] = new string[] { "Scarf", "empty sprite", "Hair Front", "hair front bangs short", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes brown", "Eyes Back", "eyes back normal", "Eyebrows", "eyebrows dark", "Mouth", "mouth silly", "Head", "head round", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso shirt red", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
+        templates["Stew"] = new string[] { "Scarf", "empty sprite", "Hair Front", "hair front bangs blonde", "Head Accessories", "empty sprite", "Head Features", "empty sprite", "Eyes", "eyes beedy teal", "Eyes Back", "empty sprite", "Eyebrows", "eyebrows light", "Mouth", "mouth normal", "Head", "head normal", "Hand Right", "hand right normal", "Torso Accessories", "empty sprite", "Torso", "torso robe green_0", "Hand Left", "hand left normal", "Item", "item wand normal", "Hair Back", "empty sprite" };
 
         SpriteLibrary spriteLibrary = GetComponent<SpriteLibrary>();
         SpriteLibraryAsset spriteLibraryAsset = spriteLibrary.spriteLibraryAsset;
