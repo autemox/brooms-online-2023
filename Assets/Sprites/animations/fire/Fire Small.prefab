@@ -190,7 +190,7 @@ PrefabInstance:
     - target: {fileID: 6219537050803495303, guid: 133eb477f9bac6744b2bc07adc0e4b0c,
         type: 3}
       propertyPath: m_Name
-      value: CFXR3 Fire Variant - Embers Only (1)
+      value: Fire Small
       objectReference: {fileID: 0}
     - target: {fileID: 6219537050803495303, guid: 133eb477f9bac6744b2bc07adc0e4b0c,
         type: 3}
@@ -440,7 +440,7 @@ PrefabInstance:
     - target: {fileID: 7613972264933300774, guid: 133eb477f9bac6744b2bc07adc0e4b0c,
         type: 3}
       propertyPath: m_Intensity
-      value: 3.5856693
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7773688671489835498, guid: 133eb477f9bac6744b2bc07adc0e4b0c,
         type: 3}
