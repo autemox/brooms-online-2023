@@ -1187,6 +1187,27 @@ MonoBehaviour:
   footLeft: {fileID: 4240091061993782557}
   hairBack: {fileID: 8905766611368227215}
   templateAppearance: 1
+--- !u!114 &-3073716740385134750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911403223223780373}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02eb8e682804dbf4e911358f7de6d3d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  IdleAnimationName: Idle
+  ClimbingAnimationDuration: 0.5
+  MinimumHangingTime: 0.2
 --- !u!114 &2079269100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1805,6 +1826,8 @@ MonoBehaviour:
   maxMousePriority: 10
   maxAbilityPriority: 50
   maxPriority: 100
+  objectAttentionDistance: 100
+  characterFeetToEyeHeight: 1.6
 --- !u!114 &3308929274030570718
 MonoBehaviour:
   m_ObjectHideFlags: 0

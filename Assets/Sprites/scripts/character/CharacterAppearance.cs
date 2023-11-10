@@ -134,12 +134,12 @@ public class CharacterAppearance : MonoBehaviour
             {
                 // Update the sorting layer of the SpriteRenderer
                 spriteRenderer.sortingLayerName = sortingLayerName;
-                Debug.Log($"Updated sorting layer of {appearanceCategory.gameObject.name} to {sortingLayerName}");
+                //Debug.Log($"[CharacterAppearance UPdateSpriteRenderersSortingLayer()]  sorting layer of {appearanceCategory.gameObject.name} to {sortingLayerName}");
             }
             else
             {
                 // If there is no SpriteRenderer, log a warning
-                Debug.LogWarning($"SpriteRenderer component not found on {appearanceCategory.gameObject.name}");
+                Debug.LogWarning($"[CharacterAppearance UPdateSpriteRenderersSortingLayer()]  component not found on {appearanceCategory.gameObject.name}");
             }
         }
     }
@@ -191,11 +191,11 @@ public class CharacterAppearance : MonoBehaviour
             if (appearanceCategory.category == category)
             {
                 // Call its ChangeLabel() method to change the sprite label
-                Debug.Log("[CharacterAppearance ChangeAppearance()] Changing " + category + " to " + newLabel);
+                //Debug.Log("[CharacterAppearance ChangeAppearance()] Changing " + category + " to " + newLabel);
                 appearanceCategory.ChangeLabel(newLabel);
                 return;
             }
         }
-        Debug.LogWarning("Category not found: " + category);
+        Debug.LogWarning("[CharacterAppearance ChangeAppearance()] Category not found: " + category);
     }
 }
